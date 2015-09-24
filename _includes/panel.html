@@ -1,0 +1,12 @@
+<div data-role="panel" id="{{ page.stitle }}-nav-panel" data-display="overlay">
+
+<ul data-role="listview" id="reason-nav">
+  <li data-theme="b"><a href="#" data-rel="close" class="ui-btn ui-icon-carat-l ui-btn-icon-right">Close</a></li>
+  <li data-role="list-divider" data-theme="e"></li>
+
+{% for slide in page.slides %}
+  <li><a href="#{{ slide | slugify }}">{{ slide }}</a></li>
+{% endfor %}
+</ul>
+
+</div>

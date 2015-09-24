@@ -1,0 +1,12 @@
+# Site settings
+title: Introduction to Philosophy
+email: ehovers10@gmail.com
+description: > 
+  Presentations for an introductory class in philosophy
+baseurl: "/phil-intro"
+url: "http://erikhoversten.org"
+
+github_username:  ehovers10
+
+# Build settings
+markdown: kramdown
