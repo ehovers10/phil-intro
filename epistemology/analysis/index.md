@@ -1,6 +1,7 @@
 ---
 layout: pres
 title: Analysis of Knowledge
+module: epistemology
 stitle: analysis
 date: 2015-09-27
 theme: a

@@ -1,0 +1,39 @@
+<!-- Next class -->
+<div data-role="page" data-title="For next class" id="skepticism-nextclass" class="eh-page">
+
+<div role="main" class="ui-content ui-corner-all wrap eh-bigger">
+
+<h2 class="ui-bar ui-bar-e ui-corner-all">For next class:</h2>
+
+<div class="ui-corner-all eh-corners">
+  <div class="ui-bar ui-bar-a">
+    Discussion topic
+  </div>
+  <div class="ui-body ui-body-a">
+    <p>{{ include.topic }}</p>
+  </div>
+</div>
+
+<div class="ui-corner-all eh-corners">
+  <div class="ui-bar ui-bar-a">
+    Readings
+  </div>
+  <div class="ui-body ui-body-a">
+    <p>{{ include.read1 }}</p>
+    {% if include.read2 %}
+    <p>{{ include.read2 }}</p>
+    {% endif %}
+  </div>
+</div>
+
+<div class="ui-corner-all eh-corners">
+  <div class="ui-bar ui-bar-a">
+    Assignments
+  </div>
+  <div class="ui-body ui-body-a">
+    <p>{{ include.assign }}</p>
+  </div>
+</div>
+
+</div>
+</div>

@@ -1,0 +1,42 @@
+<div data-role="collapsibleset">
+<div data-role="collapsible">
+<h3 class="ui-bar ui-bar-e ui-corner-all">Decision Matrices</h3>
+<p>In the rows, we list all the <strong>possible actions</strong> among which we are attempting to choose.</p>
+<p>In the columns, we list all the <strong>possible states of the world</strong> among which we are uncertain which is actually the case.</p>
+  <p>Each cell is an outcome, and we place <strong>utility values</strong> for each outcome in the relevant cell.</p>
+
+<div data-role="collapsible">
+<h4>Example matrix</h4>
+<table data-role="table" data-mode="" data-inset="true" id="decision-matrix" class="table-stripe ui-content ui-content-theme-f ui-corner-all">
+<thead>
+<tr class="header">
+<th></th>
+<th>State 1 (<span class="math"><em>S</em><sub>1</sub></span>)</th>
+<th>State 2 (<span class="math"><em>S</em><sub>2</sub></span>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th>Action 1 (<span class="math"><em>A</em><sub>1</sub></span>)</th>
+<td><span class="math"><em>V</em><em>a</em><em>l</em>(<em>A</em><sub>1</sub><em>S</em><sub>1</sub>)</span></td>
+<td><span class="math"><em>V</em><em>a</em><em>l</em>(<em>A</em><sub>1</sub><em>S</em><sub>2</sub>)</span></td>
+</tr>
+<tr class="even">
+<th>Action 2 (<span class="math"><em>A</em><sub>2</sub></span>)</th>
+<td><span class="math"><em>V</em><em>a</em><em>l</em>(<em>A</em><sub>2</sub><em>S</em><sub>1</sub>)</span></td>
+<td><span class="math"><em>V</em><em>a</em><em>l</em>(<em>A</em><sub>2</sub><em>S</em><sub>2</sub>)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div data-role="collapsible">
+<h4>Expected utility</h4>
+<p>We can then use this matrix to determine which of the actions before us is the best.</p>
+<p>To do this, we need to assign <strong>probabilities</strong> to the various states of affairs. The value we assign to a state of affairs represents how likely we think it is that that state of affairs will obtain.</p>
+<p>The expected utility is a numerical representation of how good of a choice that action is compared to the other options.</p>
+<h2 class="ui-bar ui-bar-a"><span class="math"><em>E</em><em>U</em>(<em>A</em><sub>1</sub>) = <em>V</em><em>a</em><em>l</em>(<em>A</em><sub>1</sub><em>S</em><sub>1</sub>) × <em>P</em>(<em>S</em><sub>1</sub>) + <em>V</em><em>a</em><em>l</em>(<em>A</em><sub>1</sub><em>S</em><sub>2</sub>) × <em>P</em>(<em>S</em><sub>2</sub>) + ...</span></h2>
+<p>After calculating the expected value for each of the actions we have to choose from, the action that gets the highest result is the one that we have most pragmatic reason to choose.</p>
+</div>
+</div>
