@@ -7,8 +7,7 @@ date: 2015-09-27
 theme: a
 
 slides: 
-  [Value of Knowledge, 
-  Justified True Belief, 
-  No False Lemmas, 
-  Fake Barns]
+  [Value of Knowledge,
+   Analysis, 
+   Justified True Belief]
 ---
