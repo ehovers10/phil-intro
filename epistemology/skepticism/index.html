@@ -1,0 +1,623 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title>Introduction to Philosophy | Montclair State Univeristy | Erik Hoversten</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+
+<!-- grunticon Stylesheet Loader | https://github.com/filamentgroup/grunticon | (c) 2012 Scott Jehl, Filament Group, Inc. | MIT license. -->
+  <script>
+  window.grunticon=function(e){if(e&&3===e.length){var t=window,n=!(!t.document.createElementNS||!t.document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||window.opera&&-1===navigator.userAgent.indexOf("Chrome")),o=function(o){var r=t.document.createElement("link"),a=t.document.getElementsByTagName("script")[0];r.rel="stylesheet",r.href=e[o&&n?0:o?1:2],a.parentNode.insertBefore(r,a)},r=new t.Image;r.onerror=function(){o(!1)},r.onload=function(){o(1===r.width&&1===r.height)},r.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="}};
+  grunticon( [ "../css/icons.data.svg.css","../css/icons.data.png.css","../css/icons.fallback.css" ] );
+  </script>
+  <noscript><link href="../css/icons.fallback.css" rel="stylesheet"></noscript>
+
+  <link rel="stylesheet" href="../css/eh-theme-b.min.css" />
+  <link rel="stylesheet" href="../css/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+
+  <link rel="stylesheet" href="../css/ehpres.css" />
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script src="../js/msuphil100f15.js"></script>
+
+</head>
+
+<body>
+
+<div data-role="header" id="skepticism-header" data-position="fixed">
+  <a href="#skepticism-nav-panel" class="ui-btn ui-btn-e ui-btn-left ui-btn-icon-notext ui-icon-bars ui-corner-all">Nav</a>
+  <h1>Page title</h1>
+  <div data-role="controlgroup" data-type="horizontal" class="ui-btn-right">
+    <a href="#" id="prev-link" class="ui-btn ui-btn-e ui-btn-icon-notext ui-icon-arrow-l ui-corner-all">Prev</a>
+    <a href="#" id="next-link" class="ui-btn ui-btn-e ui-btn-icon-notext ui-icon-arrow-r ui-corner-all">Next</a>
+  </div>
+</div>
+
+<div data-role="footer" id="skepticism-foot" data-position="fixed" class="foot">
+  <a href="../" rel="external" class="ui-btn-left ui-btn ui-btn-e ui-btn-icon-notext ui-icon-home ui-corner-all">Course Home</a>
+  <h1>Skepticism: 09/18 and 9/22</h1>
+  <a href="http://creativecommons.org/licenses/by/4.0/" rel="external" class="ui-btn-right ui-btn ui-btn-e ui-btn-icon-notext ui-corner-all eh-icon icon-creative-commons"></a>
+</div>
+
+<div data-role="panel" id="skepticism-nav-panel" data-display="overlay">
+
+<ul data-role="listview" id="skepticism-nav">
+  <li data-theme="b"><a href="#" data-rel="close" class="ui-btn ui-icon-carat-l ui-btn-icon-right">Close</a></li>
+  <li data-role="list-divider" data-theme="e"></li>
+  <li><a href="#skepticism-dash">Dashboard</a></li>
+  <li data-role="list-divider" data-theme="e">Knowledge Lost</li>
+  <li><a href="#skepticism-external">External world skepticism</a></li>
+  <li><a href="#skepticism-med1">Descartes' Meditation I</a></li>
+  <li data-role="list-divider" data-theme="e">Knowledge Regained</li>
+  <li><a href="#skepticism-med2">Descartes' Meditation II</a></li>
+  <li><a href="#skepticism-langton">Things in themselves</a></li>
+  <li><a href="#skepticism-moore">Direct Realism</a></li>
+</ul>
+
+</div>
+
+<!--Dashboard-->
+<div data-role="page" data-title="Dashboard" id="skepticism-dash" data-theme="e" class="eh-page">
+
+<div role="main" class="ui-content wrap">
+
+<div class="ui-content ui-content-theme-f ui-corner-all">
+  <p style="font-weight: 600; margin: 0 auto; font-size: 2em;">Introduction to Philosophy</p>
+  <p style="font-weight: 600; margin: 0 auto; font-size: 1.5em;">Skepticism</p>
+  <p style="font-weight: 600; margin: 0 auto; font-size: 1em;">September 18, 2015</p>
+  </div>
+  
+<h2 class="ui-bar ui-bar-a ui-corner-all">This presentation addresses:</h2>
+<div class="ui-body">
+  
+<ul data-role="listview" data-inset="true">
+  <li data-role="list-divider" data-theme="e">Knowledge Lost</li>
+  <li><a href="#skepticism-external">External world skepticism</a></li>
+  <li><a href="#skepticism-med1">Descartes' Meditation I</a></li>
+  <li data-role="list-divider" data-theme="e">Knowledge Regained</li>
+  <li><a href="#skepticism-med2">Descartes' Meditation II</a></li>
+  <li><a href="#skepticism-langton">Things in themselves</a></li>
+  <li><a href="#skepticism-moore">Direct Realism</a></li>
+</ul>
+ 
+</div>
+
+</div>
+</div>
+
+<!-- The external world -->
+<div data-role="page" data-title="External World" id="skepticism-external" data-theme="e" class="eh-page">
+
+<div role="main" class="ui-content wrap eh-bigger">
+
+<h3 class="ui-bar ui-bar-e ui-corner-all">Is the world really as you think it is?</h3>
+
+<div data-role="collapsibleset">
+<div data-role="collapsible">
+<h4>There are lots of things we don't know:</h4>
+  <ul>
+    <li>I don't know what lies beyond the grave.</li>
+    <li>I don't know what will come of the world as a result of fossil fuel burning.</li>
+    <li>I don't know where I left my copy of <em>Knowledge and its Limits</em>.</li>
+  </ul>
+</div>
+<div data-role="collapsible">
+<h4>But there are also many things we are perfectly confident in:</h4>
+  <ul>
+    <li>I am on the Montclair State University campus.</li>
+    <li>I am discussing philosophy in my Intro class.</li>
+    <li>I had a yummy salad for lunch.</li>
+  </ul>
+</div>
+<div data-role="collapsible">
+<h4>But how do we actually...</h4> 
+<p>...<strong>know</strong> that the quotidian parts of the world are as they seem to be?</p>
+
+<a href="#pop-matrix" data-rel="popup" data-position-to="window" data-transition="fade" class="ui-btn ui-btn-a ui-icon-camera ui-btn-icon-right">The Matrix</a>
+
+    <div data-role="popup" id="pop-matrix" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+      <iframe width="854" height="510" src="https://www.youtube.com/embed/AGZiLMGdCE0" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- Foundations of Epistemology -->
+<div data-role="page" data-title="Meditation I" id="skepticism-med1" data-theme="e" class="eh-page">
+
+<div role="main" class="ui-content wrap eh-bigger">
+
+<h3 class="ui-bar ui-bar-e ui-corner-all">Descartes' First Meditation</h3>
+
+<a href="#pop-descartes" data-rel="popup" data-position-to="window" data-transition="fade" class="ui-btn ui-btn-a ui-icon-camera ui-btn-icon-right">Rene&#x0301; Descartes</a>
+
+    <div data-role="popup" id="pop-descartes" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+      <img src="../images/descartes.jpg" style="max-height: 400px;" alt="Descartes">
+    </div>
+
+<div data-role="tabs" data-theme="d">
+<div data-role="navbar" data-theme="d">
+  <ul>
+    <li><a href="#prelim" class="ui-btn-active" data-ajax="false">Preliminaries</a></li>
+    <li><a href="#doubt" data-ajax="false">Systematic Doubt</a></li>
+    <li><a href="#concl" data-ajax="false">Conclusions</a></li>
+  </ul>
+</div>
+
+<div id="prelim" class="ui-body ui-body-a">
+<p>Descartes begins his Meditations by describing the goal of his inquiry. He recognizes that much that he takes for granted in his daily life he does so without firm justification.</p>
+<p>This is fine for daily life, but Descartes wants to set out a framework for the practice of science.</p>
+
+<div data-role="tabs" data-theme="d">
+  <ul data-role="listview" data-inset="true" class="eh-tablist-left">
+    <li><a href="#goal" data-active="true" data-ajax="false">Goal</a></li>
+    <li><a href="#crit" data-ajax="false">Criterion</a></li>
+    <li><a href="#meth" data-ajax="false">Method</a></li>
+  </ul>
+
+<div id="goal" class="eh-tablist-content">
+<p><strong>Goal:</strong> To establish a firm foundation for belief on which to rest all of scientific inquiry.</p>
+<p>Descartes thinks that if he can establish a set of foundational beliefs, then he can build a complete science on top of that.</p>
+</div>
+
+<div id="crit" class="eh-tablist-content">
+<p><strong>Criterion:</strong> The only adequate foundational beliefs are those that are indubitable.</p>
+
+<p>In order to reach his goal, he must have a criterion by which to judge the adequacy of a belief to serve as a foundation.</p>
+<p>Descartes seems to think that the onus is on the individual who wishes to hold a particular belief. Thus, he doesn’t think that he needs to positively show that a belief is false in order to reject it from the foundation.</p>
+<p>Instead, he thinks any belief for which he can raise any doubt must be rejected.</p>
+</div>
+<div id="meth" class="eh-tablist-content">
+<p><strong>Method:</strong> Systematic doubt of the sources of belief.</p>
+
+<p>Descartes points out that it would be practically impossible for him to examine each belief he has individually.</p>
+<p>Instead, he groups his beliefs in terms of the principles (<strong>sources</strong>) on which they are based. If those sources can be doubted, so too can any belief based on them.</p>
+</div>
+</div>
+
+</div>
+
+<div id="doubt" class="ui-body ui-body-a">
+<p>The first meditation is written as a back-and-forth in which he puts forward challenges to the adequacy of certain beliefs, and then attempts to rescue others from the onslaught.</p>
+
+<div data-role="tabs" data-theme="d">
+  <ul data-role="listview" data-inset="true" class="eh-tablist-left">
+    <li><a href="#chal1" data-ajax="false">Challenge 1</a></li>
+    <li><a href="#chal2" data-ajax="false">Challenge 2</a></li>
+    <li><a href="#chal3" data-ajax="false">Challenge 3</a></li>
+    <li><a href="#chal4" data-ajax="false">Challenge 4</a></li>
+  </ul>
+
+<div id="chal1" class="eh-tablist-content">
+<p>My senses sometimes deceive me, as when I mistake a pile of clothes in a dark room for a person. If a source has ever deceived me before it can certainly be doubted now.</p>
+
+<div data-role="collapsible">
+<h4>Response</h4>
+<p>But the cases in which my senses deceive (things at great distances or in poor light conditions) seem to be outlier cases. When the conditions are right, my senses do just fine. So why should I doubt them when the conditions are good?</p>
+</div>
+</div>
+<div id="chal2" class="eh-tablist-content">
+<p>When I am dreaming, I have as vivid experiences as I do when I’m awake. Yet in my dream state, my beliefs are false. I can imagine that I might be dreaming now, so I can’t trust my sensory experiences.</p>
+
+<div data-role="collapsible">
+<h4>Response</h4>
+<p>But when I awake, I can easily tell that I was dreaming. The waking state and the dream state are recognizably different.</p>
+</div>
+</div>
+<div id="chal3" class="eh-tablist-content">
+<p>A dream state can be recognized once it ends, but from the “inside” it seems as real as anything. Once again, I cannot be certain that I am not <em>currently</em> in a dream state, so I can’t trust my senses.</p>
+
+<div data-role="collapsible">
+<h4>Response</h4>
+<p>The images formed in dreams (hands, tigers, houses) get all jumbled up in the dream. So maybe the sciences that govern these things (physics, biology, etc) can be doubted.</p>
+<p>But the composite images are composed of basic corporeal qualities (shape, size, color, number). Even in dreams the sciences that govern the basic qualities (arithmetic, geometry) still hold.</p>
+</div>
+</div>
+
+<div id="chal4" class="eh-tablist-content">
+<p>Might I then imagine that God has set out to deceive me in everything I think of? Or, if it is inconceivable that God would do such a thing, might there be a <strong>powerful demon</strong> set out to deceive me in every belief I form?</p>
+<p>Perhaps each time I evaluate 2 + 3 = 5 or measure the circumference of a circle, he makes me think I am right, even though it is actually wrong. Such a situation seems possible, so even these basic mathematical beliefs can be brought into doubt.</p>
+
+<div data-role="collapsible">
+<h4>Response</h4>
+<h3 class="ui-bar ui-bar-a">???</h3>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div id="concl" class="ui-body ui-body-a">
+<p>Descartes feels that using his method of doubt he has eliminated from contention as a foundational belief almost every belief he can come up with.</p>
+
+<p>He also recognizes that it is extremely difficult to convince himself to give up these beliefs. So he sets out to pretend that everything he thinks is the case is mere illusion until he can better control the impulses of his mind to believe such things.</p>
+
+<p>He’s a little worried at this point. Maybe there is nothing he can know with certainty. If so, then his project is dead in the water.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- Next class -->
+<div data-role="page" data-title="For next class" id="skepticism-nextclass" class="eh-page">
+
+<div role="main" class="ui-content ui-corner-all wrap eh-bigger">
+
+<h2 class="ui-bar ui-bar-e ui-corner-all">For next class:</h2>
+
+<div class="ui-corner-all eh-corners">
+  <div class="ui-bar ui-bar-a">
+    Discussion topic
+  </div>
+  <div class="ui-body ui-body-a">
+    <p>Replies to skepticism</p>
+  </div>
+</div>
+
+<div class="ui-corner-all eh-corners">
+  <div class="ui-bar ui-bar-a">
+    Readings
+  </div>
+  <div class="ui-body ui-body-a">
+    <p>G.E. Moore, <em>Proof of an External World</em>, pp. 312-318</p>
+    <p>Rae Langton, <em>Ignorance of Things in Themselves</em>, pp. 335-345</p>
+  </div>
+</div>
+
+<div class="ui-corner-all eh-corners">
+  <div class="ui-bar ui-bar-a">
+    Assignments
+  </div>
+  <div class="ui-body ui-body-a">
+    <p>None. Don't fall behind on the reading!</p>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- Meditation II -->
+<div data-role="page" data-title="Meditation II" id="skepticism-med2" data-theme="e" class="eh-page">
+
+<div role="main" class="ui-content wrap eh-bigger">
+
+<h3 class="ui-bar ui-bar-e ui-corner-all">Descartes' <em>Archimedean Point</em></h3>
+
+<div data-role="tabs" data-theme="d">
+<div data-role="navbar" data-theme="d">
+  <ul>
+    <li><a href="#cogito" class="ui-btn-active" data-ajax="false">The Cogito</a></li>
+    <li><a href="#nature" data-ajax="false">A thinking thing</a></li>
+    <li><a href="#clear" data-ajax="false">Clear and distinct perception</a></li>
+  </ul>
+</div>
+
+<div id="cogito" class="ui-body ui-body-a">
+
+<h4 class="ui-bar ui-bar-e ui-corner-all">The Cogito</h4>
+
+<div data-role="tabs" data-theme="d">
+  <ul data-role="listview" data-inset="true" class="eh-tablist-left">
+    <li><a href="#chal4" data-ajax="false">Challenge 4</a></li>
+    <li><a href="#chal5" data-ajax="false">Challenge 5</a></li>
+    <li><a href="#chal6" data-ajax="false">Challenge 6</a></li>
+  </ul>
+
+<div id="chal4" class="eh-tablist-content">
+<p>Might I be systematically fooled by an evil demon?</p>
+<div data-role="collapsible">
+<h4>Response</h4>
+<p>But can’t I at least know that there is something that has put these thoughts in my mind, whether they are true or false?</p>
+</div>
+</div>
+
+<div id="chal5" class="eh-tablist-content">
+<p>I was assuming that an evil demon was deceiving me, but couldn’t I be the author of my own thoughts. If it is possible, then I can doubt that anything put the thoughts in me.</p>
+
+<div data-role="collapsible">
+<h4>Response</h4>
+<p>But for me to be the author of my own thoughts, I would have to exist. Can’t I know that?</p>
+</div>
+</div>
+
+<div id="chal6" class="eh-tablist-content">
+<p>It seems to me that my existence is bound up with the existence of my body and my senses. But since I have doubted the existence of my body, don’t I also doubt my own existence.</p>
+
+<div data-role="collapsible">
+<h4>Response</h4>
+<p>No! For to doubt is to do something (namely, to think ), and to do something is to exist.</p>
+<p>Even if I am being deceived I still must be thinking. And if I am thinking, then then I must be something. I cannot doubt that when I think, I exist.</p>
+
+<p>At this point, Descartes announces the one indubitable truth:</p>
+  
+<h4 class="ui-bar ui-bar-a">Cogito ergo sum = I think; therefore, I am.</h4>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div id="nature" class="ui-body ui-body-a">
+
+<div data-role="collapsibleset">
+<div data-role="collapsible">
+<h4 class="ui-bar ui-bar-e ui-corner-all">What is this "I" that exists?</h4>
+
+<p>Descartes considers what it is he used to think he was. His conception had two main parts:</p>
+
+<ul>  
+  <li><strong>A body</strong>: A thing with size and shape that interacts with other things in the world.</li>
+
+  <li><strong>A soul</strong>: A thing that gives life to his body and experiences through the senses. Descartes’ use of “soul” is probably better understood as “mind”. The mind is a very mysterious thing, and something that Descartes does not understand all that well.</li>
+</ul>
+
+<p>But he now recognizes that each of the attributes he assigns to his body he can imagine existing without.</p>
+<p>The only thing that he sees is inseparable from his existence is his ability to think, and that is a feature of his mind.</p>
+<p>So, whatever else he may be, he knows with certainty that he is <strong>a thinking thing</strong>. He is something that doubts, wills, understands, imagines, and experiences.</p>
+</div>
+
+<div data-role="collapsible">
+<h4 class="ui-bar ui-bar-e ui-corner-all">The Cartesian Theatre</h4>
+
+<p>Descartes recognizes that when he imagines, there is
+something that his imagining is <strong>about</strong>, what we will call the <strong>content</strong> of the imagining.</p>
+<p>For instance, if I imagine a dog jumping after a frisbee, then the content of my imagining involves a dog, a frisbee, and the act of jumping.</p>
+<p>Sometimes the content of his thoughts doesn’t match up with the way the world actually is -- his thoughts are false.<p>
+<p>But even then, he still can’t deny that he <strong>seems to be</strong> imagining what he is.</p>
+<p>Descartes has a picture of the mind in which content of our
+minds is <strong>transparent</strong> and certain to us. This picture of the mind is known as the Cartesian Theatre.</p>
+<p>This realization gives us an additional bit of certainty. In addition to knowing that he exists, Descartes also knows the content of his mind.</p>
+</div>
+</div>
+
+</div>
+
+<div id="clear" class="ui-body ui-body-a">
+
+<div data-role="collapsibleset">
+<div data-role="collapsible">
+<h4 class="ui-bar ui-bar-e ui-corner-all">The examination of the wax</h4>
+
+<p>When Descartes uses his sense to examine physical things like a piece of wax, all of its properties (its size, shape, color, smell) seem so clear to him. But when he turns his attention to the mind, he finds it is a complete mystery.</p>
+
+<div data-role="collapsibleset">
+<div data-role="collapsible">
+<h4>Essence and necessity</h4>
+<p>But wait a second: He notices that when he puts the wax near the
+fire, all its properties change. Yet despite this change, the same wax remains.</p>
+<p>So the specific properties the wax has don’t make it what it is.</p>
+<p>There must be something general that makes the wax what it is.</p>
+</div>
+<div data-role="collapsible">
+<h4>What is the essence of body?</h4> 
+<p>Descartes says that when you strip everything else away, you’re left with:
+<h5 class="ui-bar">Extension, Flexibility, and Changeability</h5> 
+
+These are general properties, in that the wax need not have any <em>specific</em> extension, but it must be extended some way.</p>
+</div>
+
+<h4 class="ui-bar ui-bar-a ui-corner-all">How do we recognize essence?</h4>
+
+<p>It can’t be by imagining all the possibilities because the wax could take any manner of different shape, and there are too many for us to imagine all of them.</p>
+
+<p>Instead, it is simply something we recognizes through pure mental scrutiny.</p>
+</div>
+</div>
+
+</div>
+
+<div data-role="collapsible">
+
+<h4 class="ui-bar ui-bar-e ui-corner-all">Clear and distinct perception</h4>
+
+<p>Even when we form beliefs using our senses, we always employ a <strong>judgment</strong>, which is a pure mental activity.</p>
+
+<p>This is the basic idea of <strong>Rationalism</strong>. It is the idea that the source of beliefs is the intellect, and not merely sensory experience.</p>
+
+<p>When we just go about our daily lives, our judgments may sometimes be confused, but when we sit down and focus on the issue, we can make our judgments on the matter more clear.</p>
+
+<p>Since the judgment that he exists as a thinking thing is the most clear and certain judgment he has, he recognizes that in actuality he knows his mind much more clearly than he knows his body.</p>
+
+<p>From this, Descartes concludes:</p>
+
+<h4 class="ui-bar ui-bar-a">I can know with certainty anything I judge as clearly and distinctly as I judge that I exist.</h4>
+
+<p>Descartes calls this kind of clear judgement the <strong>natural light</strong>. In philosophical circles, we call it <strong>intuition</strong>. Intuitions are things that we know to be true independent of our experience.</p>
+
+<p>Descartes proposes that he can proceed to build up his knowledge as long as he maintains a clear and distinct perception of any beliefs he forms.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- Things in themselves -->
+<div data-role="page" data-title="Things in themselves" id="skepticism-langton" data-theme="e" class="eh-page">
+
+<div role="main" class="ui-content wrap eh-bigger">
+
+<h3 class="ui-bar ui-bar-e ui-corner-all">Do we experience objects out in the world?</h3>
+
+<div class="ui-corner-all eh-corners">
+<div class="ui-bar ui-bar-a">
+<h4>Variation in perspective</h4>
+</div>
+<div class="ui-body ui-body-a">
+<div data-role="collapsibleset">
+<div data-role="collapsible">
+<h4>Shapes</h4>
+<p>If I were to stand directly over some table, I will report that it is a rectangle. But if you stand off to the side of that same table, you will report that it looks slightly trapezoidal.</p>
+<p>But, no object can be both rectangluar and trapezoidal. So, what we see isn’t the table itself.</p>
+</div>
+<div data-role="collapsible">
+<h4>Hot and cold</h4>
+<p>If one of my hands is very cold and the other very hot, when I place each in a bucket of warm water, I will have
+two very different sensations.</p>
+<p>But no object can be both hot and cold. So, what I feel isn’t the water itself.</p>
+</div>
+<div data-role="collapsible">
+<h4>Inference</h4>
+<p>These examples suggest that what we perceive is not the physical objects themselves. Instead, the content of our perceptions
+seem more accurately to be qualities (colors, shapes, smells).</p>
+<p>Then we (almost unconsciously) draw an <strong>inference</strong> that there are objects out in the world that correspond to our sense-data.</p>
+</div>
+</div>
+</div>
+</div>
+
+<a href="#pop-kant" data-rel="popup" data-position-to="window" data-transition="fade" class="ui-btn ui-btn-a ui-icon-camera ui-btn-icon-right">Immanuel Kant</a>
+
+    <div data-role="popup" id="pop-kant" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+      <img src="../images/kant.jpg" style="max-height: 400px;" alt="Kant">
+    </div>
+
+<div data-role="collapsibleset">
+<div data-role="collapsible">
+<h4>Two worlds</h4>
+<div data-role="collapsibleset">
+<div data-role="collapsible">
+<h4>Phenomena</h4>
+<p>This is the world of our experience. It is the colors, sounds, shapes, and feelings that <strong>appear</strong> to us when we are awake and attentive.</p>
+</div>
+<div data-role="collapsible">
+<h4>Neumena</h4>
+<p>This is the world <em>behind</em> the experiences. It is the <strong>reality</strong> of objects independent of our interaction with them.
+</div>
+</div>
+</div>
+<div data-role="collapsible">
+<h4>The limit of knowledge</h4>
+<p><strong>Receptivity</strong>: Human knowledge depends on sensibility, and sensibility is receptive: we can have knowledge of an object only in so far as it affects us.</p>
+<p>Objects <strong>in themselves</strong> do not affect us. We are only connected to the <strong>phenomenal world</strong>.</p>
+<blockquote>"Properties that belong to things as they are in themselves can never be given to us through the senses... It is not that through sensibility we are acquainted in a merely confused way with the nature of things as they are in themselves; we are not acquainted with that nature in any way at all." (Kant, quoted by Langton, p. 341)</blockquote>
+<p>We know that the objects must exist in order to give us our phenomenal experience, but we can't know anything about them because they do not directly influence us.</p>
+</div>
+</div>
+
+<a href="#pop-langton" data-rel="popup" data-position-to="window" data-transition="fade" class="ui-btn ui-btn-a ui-icon-camera ui-btn-icon-right">Rae Langton</a>
+
+    <div data-role="popup" id="pop-langton" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+      <img src="../images/langton.jpg" style="max-height: 400px;" alt="Langton">
+    </div>
+
+<div data-role="collapsibleset">
+<div data-role="collapsible">
+<h4>How do we know who the murderer is?</h4>
+<p>By being able to <strong>pick him out</strong> from all other possible suspects.</p>
+</div>
+
+<div data-role="collapsible">
+<h4>How do we know an object in itself?</h4>
+<p>By being able to single it out from all other possible objects.</p>
+<p>We only have direct access to (knowledge of) <strong>relational</strong> properties of things -- how those things affect us.</p>
+<p>But these properties tell us about the thing in itself by helping us distinguish it from all other things.</p>
+</div>
+<div data-role="collapsible">
+<h4>A new limit to knowledge</h4>
+<p>Relational properties always make reference to some other objects. Thus, all of our knowledge requires us to have knowledge of other objects, which in turn requires knowlege of further objects.</p>
+<p>But this can't go on forever. Eventually, we'll come to objects we can't relate to any further objects.  We call these the <strong>fundamental objects</strong>.</p>
+<p>We can't break through to the fundamental objects themselves because we can't signify those objects apart from all other <em>possible</em> objects. The fundamental objects cannot be known to us in <em>themselves</em>.</p>
+</div>
+</div>
+
+
+</div>
+</div>
+
+<!-- Direct realism -->
+<div data-role="page" data-title="Direct realism" id="skepticism-moore" data-theme="e" class="eh-page">
+
+<div role="main" class="ui-content wrap eh-bigger">
+
+<h3 class="ui-bar ui-bar-e ui-corner-all">Moore's proof of an external world</h3>
+
+<a href="#pop-moore" data-rel="popup" data-position-to="window" data-transition="fade" class="ui-btn ui-btn-a ui-icon-camera ui-btn-icon-right">G.E. Moore</a>
+
+    <div data-role="popup" id="pop-moore" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+      <img src="../images/moore.jpg" style="max-height: 400px;" alt="Moore">
+    </div>
+
+<div data-role="collapsibleset">
+<div data-role="collapsible">
+<h4>The argument</h4>
+<ol>
+  <li>Here is a hand, and here is another.</li>
+  <li>Therefore, two human hands exist.</li>
+</ol>
+</div>
+<div data-role="collapsible">
+<h4>Conditions on a rigorous proof</h4>
+<ol>
+  <li>The premises are different from the conclusion.</li>
+  <li>The premises are known to be true.</li>
+  <li>The conclusion follows from the premises.</li>
+</ol>
+</div>
+<div data-role="collapsible">
+<h4>Knowledge and proof</h4>
+<p>Moore admits that he does not have a <strong>proof</strong> of his premise, but he says this is not what he needs. All that he needs (by condition 2) is that the premise be <strong>known</strong> to be true, and it obviously is.</p>
+<p>Thus, Moore is relying on the idea that there are things we can know without proof. Instead, we simply know them directly. We can call this position <strong>direct realism</strong>.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- Next class -->
+<div data-role="page" data-title="For next class" id="skepticism-nextclass" class="eh-page">
+
+<div role="main" class="ui-content ui-corner-all wrap eh-bigger">
+
+<h2 class="ui-bar ui-bar-e ui-corner-all">For next class:</h2>
+
+<div class="ui-corner-all eh-corners">
+  <div class="ui-bar ui-bar-a">
+    Discussion topic
+  </div>
+  <div class="ui-body ui-body-a">
+    <p>Analysis of knowledge</p>
+  </div>
+</div>
+
+<div class="ui-corner-all eh-corners">
+  <div class="ui-bar ui-bar-a">
+    Readings
+  </div>
+  <div class="ui-body ui-body-a">
+    <p>Plato, <em>Meno</em>, pp. 103-108</p>
+    <p>Edmund Gettier, <em>Is Justified True Belief Knowledge?</em>, pp. 108-111</p>
+  </div>
+</div>
+
+<div class="ui-corner-all eh-corners">
+  <div class="ui-bar ui-bar-a">
+    Assignments
+  </div>
+  <div class="ui-body ui-body-a">
+    <p>None. The first midterm exam is in 2 weeks.</p>
+  </div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

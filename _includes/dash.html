@@ -1,11 +1,11 @@
-<div data-role="page" data-title="Dashboard" id="{{ stitle }}-dash" data-theme="e" class="eh-page">
+<div data-role="page" data-title="Dashboard" id="{{ page.stitle }}-dash" data-theme="{{ page.theme }}" class="eh-page">
 
   <div role="main" class="ui-content wrap">
 
   <div class="ui-content ui-content-theme-f ui-corner-all">
     <p style="font-weight: 600; margin: 0 auto; font-size: 2em;">Introduction to Philosophy</p>
     <p style="font-weight: 600; margin: 0 auto; font-size: 1.5em;">Analysis of Knowledge</p>
-    <p style="font-weight: 600; margin: 0 auto; font-size: 1em;">09/25</p>
+    <p style="font-weight: 600; margin: 0 auto; font-size: 1em;">{{ page.date | date: "%B %d, %Y" }}</p>
   </div>
   
   <h2 class="ui-bar ui-bar-a ui-corner-all">This presentation addresses:</h2>

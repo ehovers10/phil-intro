@@ -1,0 +1,51 @@
+While the argument is pretty straightforward, there are some complications.  Let's look at some objections to the argument that are usually raised.  The first three are common, but Pascal can offer an answer to them.  The last two are a bit more serious.
+
+\begin{enumerate}
+ \item It's not enough for someone just to believe in God for them to get into Heaven.  They must also do good deeds, go to church, and stuff like that.
+ \begin{itemize}
+  \item This may be true, but it doesn't really impact Pascal's argument.  After all, it's still necessary for someone to get into Heaven that they believe in God. So, you still have reason to believe, even if you must do other stuff as well.
+ \end{itemize}
+ \item One can't just choose to believe something.  Whether you genuinely believe something depends on stuff like the evidence you have. Just because you want to believe something doesn't mean you genuinely do believe it.
+ \begin{itemize}
+  \item This is also true, but if you recognize that you have pragmatic reason to believe, you can do certain things to help you develop the belief in God.  For instance, you can go to church and surround yourself with other believers.  If you work at it, you will likely engender a belief in God.
+ \end{itemize}
+ \item Pascal only considers the choices of believing in God or believing God doesn't exist. But don't we also have the choice of withholding belief entirely?
+ \begin{itemize}
+  \item It is true that for many claims it is a genuine third option to withhold belief. For instance, I neither believe nor disbelieve that there are an even number of particles in the universe.
+  \item But in the case of belief in God, withholding belief is equivalent to disbelief.  At least according to the model Pascal is working with, agnostics suffer the same fate as atheists.
+ \end{itemize}
+
+ \item Pascal has already admitted that reason can't tell us anything about God.  Therefore, we can't know what his will is.  Maybe God punishes those who believe based on pragmatic arguments.  That is, he only accepts those who come to believe in him for the right reasons.  If so, then the values we placed in the decision matrix might not be justified.
+
+ \item Pascal only considers the states of affairs in which the Christian God exists, but there are lot's of different religions out there.  
+ \begin{itemize}
+  \item This fact is not in and of itself problematic for Pascal's argument because the existence of different religions doesn't change the values we put in the boxes of our decision matrix.  But it does suggest that our matrix might be incomplete.
+  \item Imagine the possibility that a different god exists.  Call this god ``Anti-God''.  Anti-God punishes anyone who believes in God by sending them to Hell and accepts anyone who doesn't believe in God into Heaven.  If we consider this possibility, our decision matix should look like:
+
+\begin{center}
+ \begin{tabular}{c|c|c|c|}
+ & God exists & no God exists & Anti-God exists \\ \hline
+Believe in God & $+\infty$ & \textsc{finite} & $-\infty$ \\ \hline
+Don't believe in God & $-\infty$ & \textsc{finite} & $+\infty$ \\ \hline
+\end{tabular}
+\end{center}
+
+  And our new expected values look like:\footnote{In the following calculation, I set the probabilities of each state of affairs to be equal, but really, it doesn't matter what we put them at so long as each is more than zero. The infinities will swamp everything out.}
+
+\[\begin{array}{rcl}
+EU(Belief) & = & Val(Believe,God)\times P(God) + Val(Believe,no \; God)\times P(no\;God) + \\
+ & & Val(Believe,anti-God)\times P(anti-God)\\
+ & = & +\infty\times 0.33 + \textsc{finite}\times 0.33 + -\infty\times 0.33\\
+ & = & \textsc{finite} \\   
+  \end{array}\]
+
+\[\begin{array}{rcl}
+EU(non-Belief) & = & Val(no\;Believe,God)\times P(God) + Val(no\;Believe,no \; God)\times P(no\;God) + \\
+ & & Val(no\;Believe,anti-God)\times P(anti-God) \\
+ & = & -\infty\times 0.33 + \textsc{finite}\times 0.33 + \infty\times 0.33 \\
+ & = & \textsc{finite} \\   
+  \end{array}\]
+
+  So now it appears that both options are equally beneficial.  The upshot is that so long as the existence of Anti-God is a genuine possibility, we don't really have a pragmatic reason for believing in God.
+ \end{itemize}
+\end{enumerate}

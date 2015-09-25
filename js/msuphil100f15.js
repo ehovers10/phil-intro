@@ -3,8 +3,8 @@
 
 $(function(){ 
   $("[data-role=panel]").panel({ theme: "a" }).enhanceWithin();
-  $("[data-role=footer]").toolbar({ theme: "e" }).enhanceWithin();
-  $("[data-role=header]").toolbar({ theme: "e" }).enhanceWithin();
+  $("[data-role=footer]").toolbar({ theme: "a" }).enhanceWithin();
+  $("[data-role=header]").toolbar({ theme: "a" }).enhanceWithin();
 });
 
 // Inject page-specific content in externals

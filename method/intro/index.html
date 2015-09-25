@@ -1,0 +1,1007 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title>Introduction to Philosophy | Montclair State Univeristy | Erik Hoversten</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+
+<!-- grunticon Stylesheet Loader | https://github.com/filamentgroup/grunticon | (c) 2012 Scott Jehl, Filament Group, Inc. | MIT license. -->
+  <script>
+  window.grunticon=function(e){if(e&&3===e.length){var t=window,n=!(!t.document.createElementNS||!t.document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||window.opera&&-1===navigator.userAgent.indexOf("Chrome")),o=function(o){var r=t.document.createElement("link"),a=t.document.getElementsByTagName("script")[0];r.rel="stylesheet",r.href=e[o&&n?0:o?1:2],a.parentNode.insertBefore(r,a)},r=new t.Image;r.onerror=function(){o(!1)},r.onload=function(){o(1===r.width&&1===r.height)},r.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="}};
+  grunticon( [ "../css/icons.data.svg.css","../css/icons.data.png.css","../css/icons.fallback.css" ] );
+  </script>
+  <noscript><link href="../css/icons.fallback.css" rel="stylesheet"></noscript>
+
+  <link rel="stylesheet" href="../css/eh-theme-b.min.css" />
+  <link rel="stylesheet" href="../css/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+
+  <link rel="stylesheet" href="../css/ehpres.css" />
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script src="../js/msuphil100f15.js"></script>
+
+</head>
+
+<body>
+
+<div data-role="header" id="intro-header" data-position="fixed">
+  <a href="#intro-nav-panel" class="ui-btn ui-btn-e ui-btn-left ui-btn-icon-notext ui-icon-bars ui-corner-all">Nav</a>
+  <h1>Page title</h1>
+  <div data-role="controlgroup" data-type="horizontal" class="ui-btn-right">
+    <a href="#" id="prev-link" class="ui-btn ui-btn-e ui-btn-icon-notext ui-icon-arrow-l ui-corner-all">Prev</a>
+    <a href="#" id="next-link" class="ui-btn ui-btn-e ui-btn-icon-notext ui-icon-arrow-r ui-corner-all">Next</a>
+  </div>
+</div>
+
+<div data-role="footer" id="intro-foot" data-position="fixed" class="foot">
+  <a href="../index.html" rel="external" class="ui-btn-left ui-btn ui-btn-e ui-btn-icon-notext ui-icon-home ui-corner-all">Course Home</a>
+  <h1>Intro: 09/04</h1>
+  <a href="http://creativecommons.org/licenses/by/4.0/" rel="external" class="ui-btn-right ui-btn ui-btn-e ui-btn-icon-notext ui-corner-all eh-icon icon-creative-commons"></a>
+</div>
+
+<div data-role="panel" id="intro-nav-panel" data-display="overlay">
+
+<ul data-role="listview" id="intro-nav">
+  <li data-theme="b"><a href="#" data-rel="close" class="ui-btn ui-icon-carat-l ui-btn-icon-right">Close</a></li>
+  <li data-role="list-divider" data-theme="e"></li>
+  <li><a href="#intro-dash">Dashboard</a></li>
+  <li data-role="list-divider" data-theme="e">Syllabus</li>
+  <li><a href="#intro-syll-info">Basic info</a></li>
+  <li><a href="#intro-syll-overview">Overview</a></li>
+  <li><a href="#intro-syll-grading">Grading</a></li>
+  <li><a href="#intro-syll-extras">Extras</a></li>
+  <li data-role="list-divider" data-theme="e">Assessment</li>
+  <li><a href="#intro-assess-overview">Overview</a></li>
+  <li><a href="#intro-assess-exams">Exams</a></li>
+  <li><a href="#intro-assess-responses">Reading responses</a></li>
+  <li data-role="list-divider" data-theme="e">Schedule</li>
+  <li><a href="#intro-sched-overview">Overview</a></li>
+  <!--<li><a href="#intro-sched-epistem">Phil method &amp; Epistem.</a></li>
+  <li><a href="#intro-sched-mind">Mind &amp; Metaphysics</a></li>
+  <li><a href="#intro-sched-ethics">Ethics &amp; Political Phil.</a></li>-->
+  <li data-role="list-divider" data-theme="e">What is philosophy?</li>
+  <li><a href="#intro-whatphil-kinds">Uses of "philosophy"</a></li>
+  <li><a href="#intro-whatphil-kinds">Value of philosophy</a></li>
+  <li data-role="list-divider" data-theme="e"></li>
+  <li data-theme="b"><a href="#intro-nextclass">Next class</a></li>
+</ul>
+
+</div>
+
+<!--Dashboard-->
+<div data-role="page" data-title="Dashboard" id="intro-dash" data-theme="e" class="eh-page">
+
+  <div role="main" class="ui-content wrap">
+
+  <div class="ui-content ui-content-theme-f ui-corner-all">
+    <p style="font-weight: 600; margin: 0 auto; font-size: 2em;">Introduction to Philosophy</p>
+    <p style="font-weight: 600; margin: 0 auto; font-size: 1.5em;">First class meeting</p>
+    <p style="font-weight: 600; margin: 0 auto; font-size: 1em;">September 04, 2015</p>
+  </div>
+  
+  <h2 class="ui-bar ui-bar-a ui-corner-all">This presentation addresses:</h2>
+  <div class="ui-body">
+    <ul data-role="listview" data-inset="true">
+      <li><a href="#intro-syll-info">The course syllabus</a></li>
+      <li><a href="#intro-assess-overview">The assessment for the course</a></li>
+      <li><a href="#intro-sched-overview">A schedule of topics to be covered</a></li>
+      <li><a href="#intro-whatphil-kinds">What is philosophy?</a></li>
+    </ul>
+  </div>
+
+  </div>
+
+</div>
+
+<!--Syllabus-->
+<div data-role="page" data-title="Syllabus" id="intro-syll-info" class="eh-page">
+
+<div role="main" class="ui-content wrap">
+
+<h2 class="ui-bar ui-bar-e ui-corner-all">Basic information</h2>
+
+<table data-role="table" data-mode="" id="info-table" class="table-stripe ui-content ui-content-theme-f ui-corner-all">
+<thead>
+  <tr>  
+    <th>Course title:</th>
+    <th>Introduction to Philosophy</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>  
+    <th>Course number:</th>
+    <td>PHIL 100, Fall 2015</td>
+  </tr>
+  <tr>
+    <th>Instructor:</th>
+    <td>Erik Hoversten</td>
+  </tr>
+  <tr>
+    <td> <span class="cmbx-10">Email:</span></td>
+    <td><a href="mailto:ehovers10@gmail.com" >ehovers10@gmail.com</a></td>
+  </tr>
+  <tr>
+    <td><span class="cmbx-10">Office:</span></td>
+    <td><a href="http://www.montclair.edu/campus-map/#DI" >Dickson Hall</a>, Room 444</td>
+  </tr>
+  <tr>
+    <td> <span class="cmbx-10">Office Hrs:</span></td>
+    <td>F 12:00p-2:00p, and by appt.</td>
+  </tr>
+<!--  <tr>
+    <td> <span class="cmbx-10">Meeting Place:</span></td>
+    <td><a href="http://www.montclair.edu/campus-map/#DI" >Dickson Hall</a>, Room 286</td>
+  </tr>
+  <tr>
+    <td><span class="cmbx-10">Meeting Times:</span></td>
+    <td>TF 4:00p-5:15p </td>
+  </tr>-->
+  <tr>
+    <td><span class="cmbx-10">Textbook:</span></td>
+    <td><a href="http://books.wwnorton.com/books/webad.aspx?id=4294986056" >The Norton Introduction to Philosophy</a>, edited by Gideon Rosen, Alex Byrne, Joshua Cohen, and Seana Shiffrin</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Lecture notes and additional readings available on Canvas</td>
+  </tr>
+</tbody>
+</table>
+
+<div style="margin: 1em;"></div>
+
+<table id="important-webpages" data-role="table" data-mode="" class="table-stripe ui-content ui-content-theme-f ui-corner-all">
+<thead>
+  <tr>
+    <th>Important Webpages:</th>
+    <th></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>&#x00A0;&#x00A0; Lecture notes:</td>
+    <td><a href="https://erikhoversten.org/msuphil100f15" >erikhoversten.org/msuphil100f15</a></td>
+  </tr>
+  <tr>
+    <td>&#x00A0;&#x00A0; Canvas:</td>
+    <td><a href="https://montclair.instructure.com" >montclair.instructure.com</a></td>
+  </tr>
+  <tr>
+    <td>&#x00A0;&#x00A0; Philosophy Dept:</td>
+    <td><a href="http://www.montclair.edu/chss/philosophy" >www.montclair.edu/chss/philosophy</a></td>
+  </tr>
+  <tr>
+    <td>&#x00A0;&#x00A0; IT Office:</td>
+    <td><a href="http://www.montclair.edu/oit" >www.montclair.edu/oit</a></td>
+  </tr>
+  <tr>
+    <td>&#x00A0;&#x00A0; Writing Center:</td>
+    <td><a href="http://www.montclair.edu/center-for-writing-excellence">www.montclair.edu/center-for-writing-excellence</a></td>
+  </tr>
+  <tr>
+    <td>&#x00A0;&#x00A0; Academic calendar:</td>
+    <td><a href="http://www.montclair.edu/about-montclair/academic-calendar/15-16/">www.montclair.edu/about-montclair/academic-calendar/15-16/</a></td>
+  </tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+<div data-role="page" data-title="Syllabus" id="intro-syll-overview" data-theme="e" class="eh-page">
+
+  <div role="main" class="ui-content wrap">
+
+<h2 class="ui-bar ui-bar-e ui-corner-all">Course overview and outcomes</h2>
+
+<div class="ui-body ui-body-a ui-corner-all">
+This is an introductory course in philosophy, the primary goals of which are:
+       <ul class="itemize1">
+       <li class="itemize">to provide a broad base of familiarity with areas of concern in academic philosophy; this includes classic philosophical
+       theories and arguments, as well as the original texts in which they are found. Upon completion of the course, students
+       will be able to engage knowledgeably in debates pertaining to a wide variety of philosophical subdisciplines.
+       </li>
+       <li class="itemize">to develop skills in philosophical argumentation and discussion. Throughout the course, students will critically examine
+       controversial issues, learn how to construct and evaluate logical arguments, and gain experience in presenting their own
+       ideas in rational and thoughtful ways.
+       </li>
+       <li class="itemize">to  connect  philosophical  theories  to  real-world  issues.  By  actively  engaging  in  the  course,  students  will  come  to
+       understand how the ideas we discuss in class matter for their interaction with the world they inhabit.
+       </li></ul>
+
+<p>The course content is divided into 5 modules, each of which reflects an important sub-discipline of philosophy. The modules are:
+Philosophical method, Epistemology, Mind and metaphysics, Ethics, and Political philosophy.</p>
+
+<p>We will spend roughly equal time on each of these modules, and part of each module will be dedicated to explaining exactly what each
+subdivision of philosophy amounts to. See the course schedule on Canvas for details.</p>
+</div>
+
+
+</div>
+</div>
+
+<div data-role="page" data-title="Syllabus" id="intro-syll-grading" class="eh-page">
+
+  <div role="main" class="ui-content wrap">
+
+<h2 class="ui-bar ui-bar-e ui-corner-all">Course requirements and grading</h2>
+
+<div class="ui-body ui-body-a ui-corner-all">
+
+Student grades will be determined based on performance on <span class="cmbx-10">three in class exams</span>, <span class="cmbx-10">five reading response assignments</span>, and <span class="cmbx-10">attendance and participation </span>in class discussion. The exams involve a combination of short and extended response questions. The reading responses are short writing assignments pertaining to the assigned readings. The purpose of the response papers is to develop students' critical reading skills.
+
+Details regarding the assessment criteria, including a grading rubric, are available in a separate document on Canvas.
+</div>
+
+<table data-role="table" data-mode="" class="table-stripe ui-content ui-content-theme-f ui-corner-all">
+<thead>
+<tr>
+<th>Assignment        </th>
+<th data-priority="1">Due date and time               </th>
+<th data-priority="2">Point value           </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reading responses</td>
+<td>Various (see schedule) @ noon</td>
+<td>5 @ 40pts = 200pts</td>
+</tr>
+<tr>
+<td>Midterm exam 1  </td>
+<td>Oct 6 in class  </td>
+<td>100pts                 </td>
+</tr>
+<tr>
+<td>Midterm exam 2  </td>
+<td>Nov 6 in class  </td>
+<td>100pts                 </td>
+</tr>
+<tr>
+<td>Final exam         </td>
+<td>Dec 18</td>
+<td>100pts                 </td>
+</tr>
+<tr>
+<td>               </td>
+<th>Total:         </th>
+<th>500pts         </th>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+
+<div data-role="page" data-title="Syllabus" id="intro-syll-extras" class="eh-page">
+
+  <div role="main" class="ui-content wrap">
+
+<h2 class="ui-bar ui-bar-e ui-corner-all">Additional information</h2>
+
+<div data-role="controlgroup">
+<a href="#attendance" data-rel="popup" data-position-to="window" class="ui-btn ui-btn-a">Attendance, preparation, and participation</a>
+<a href="#late-work" data-rel="popup" data-position-to="window" class="ui-btn ui-btn-b">Late work and tardiness</a>
+<a href="#evaluations" data-rel="popup" data-position-to="window" class="ui-btn ui-btn-a">Evaluations</a>
+<a href="#accommodations" data-rel="popup" data-position-to="window" class="ui-btn ui-btn-b">Accommodations</a>
+</div>
+
+<div data-role="popup" data-overlay-theme="b" id="attendance" class="ui-content wrap">
+<h4 class="ui-bar ui-bar-a">Attendance, preparation, and participation</h4>
+<div class="ui-body eh-bigger">
+
+<p>Active participation in class discussion is in the best interests of all students. It is the best way to develop an understanding of the
+course material, and it helps to clear up confusions. Often a question you have is shared by others; by engaging with each other, we
+mutually improve our understanding.</p>
+
+<p>Exams will draw heavily on material discussed in lectures, and class discussion will go beyond the lecture notes provided on Canvas.
+In addition, active participation will reflect favorably on course grades in borderline cases. This doesn't mean that you must have
+something to say for each class, but you should regularly try to contribute.</p>
+
+<p>Participating helpfully requires preparation. Students are expected to read the assigned texts before the class in which they will be
+addressed.</p>
+
+<p>Frequent absence and tardiness disrupt class discussion and indicate an unwillingness on the part of the student to actively engage in
+the class. Please show up to class on time. If you must miss a class, please contact me ahead of time with a valid reason for your
+absence.</p>
+</div>
+</div>
+
+<div data-role="popup" data-overlay-theme="b" id="late-work" class="ui-content wrap" >
+  <h4 class="ui-bar ui-bar-a" rounded-corners="true">Late work and tardiness</h4>
+  <div class="ui-body eh-bigger">
+
+<p>Students are expected to submit all assignments by the posted due date and time. Late assignments will be subject to a penalty of <span class="cmbx-10">one-half letter grade</span> for every day they are past due, unless arrangements are made with the instructor well before the assignment due date.</p> 
+
+<p>Exceptions will be made for properly documented emergencies; in these rare instances, students will be given extra time to complete
+the missed assignment.</p>
+  </div>       
+</div>
+
+<div data-role="popup" data-overlay-theme="b" id="evaluations" class="ui-content wrap">
+<h4 class="ui-bar ui-bar-a" rounded-corners="true">Student evaluations</h4>
+<div class="ui-body eh-bigger">
+<p>The MSU Philosophy Department collects student evaluations of each course near the end of the semester. These evaluations are greatly useful to the instructor and the department. To ensure high participation in the evaluations, students will be
+required to email the instructor with a confirmation validation received upon completing the online survey for the course.</p>
+</div>
+</div>
+
+<div data-role="popup" data-overlay-theme="b" id="accommodations" class="ui-content wrap">
+<h4 class="ui-bar ui-bar-a" rounded-corners="true">Accommodations</h4>
+<div class="ui-body eh-bigger">
+<p>The classroom environment should be a safe space for exchange of ideas. Nobody should feel unwelcome or that their thoughts are not equally respected. I promise to do what I can to maintain civility during class discussions. If you have any questions or concerns about this, feel free to contact me.</p>
+
+<p>Additional accommodations will be made for students who require them. For more information, contact the Disability Resource Center, located in Webster Hall, room 100 (<a href="http://www.montclair.edu/disability-resource-center">www.montclair.edu/disability-resource-center</a>).</p>
+</div>
+</div>
+
+ </div>
+</div>
+
+<!--Assessment-->
+<div data-role="page" data-title="Assessment" id="intro-assess-overview" class="eh-page">
+
+<div role="main" class="ui-content wrap">
+
+<h2 class="ui-bar ui-bar-e ui-corner-all">Assessment</h2>
+
+<div class="ui-body ui-body-a ui-corner-all">
+<p>A student's overall course grade in this class is determined by their performance on in class exams and reading responses. In addition, all students are expected to attend class and participate in discussion. Active participation will reflect favorably on course grades in borderline cases.</p>
+</div>
+
+<table data-role="table" data-mode="" class="table-stripe ui-content ui-content-theme-f ui-corner-all">
+<thead>
+<tr>
+<th>Assignment        </th>
+<th data-priority="1">Due date and time               </th>
+<th data-priority="2">Point value           </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reading responses</td>
+<td>Various (see schedule) @ noon</td>
+<td>5 @ 40pts = 200pts</td>
+</tr>
+<tr>
+<td>Midterm exam 1  </td>
+<td>Oct 6 in class  </td>
+<td>100pts                 </td>
+</tr>
+<tr>
+<td>Midterm exam 2  </td>
+<td>Nov 6 in class  </td>
+<td>100pts                 </td>
+</tr>
+<tr>
+<td>Final exam         </td>
+<td>Dec 18</td>
+<td>100pts                 </td>
+</tr>
+<tr>
+<td>               </td>
+<th>Total:         </th>
+<th>500pts         </th>
+</tr>
+</tbody>
+</table>
+
+<fieldset class="ui-grid-a">
+  <div class="ui-block-a"><a href="#intro-assess-exams" class="ui-btn ui-btn-a ui-corner-all">Exams</a></div>
+  <div class="ui-block-b"><a href="#intro-assess-responses" class="ui-btn ui-btn-b ui-corner-all">Reading Responses</a></div>
+</fieldset>
+
+</div>
+</div>
+
+<div data-role="page" data-title="Assessment" id="intro-assess-exams" class="eh-page">
+
+<div role="main" class="ui-content wrap">
+
+<h3 class="ui-bar ui-bar-e ui-corner-all">Exams</h3>
+
+<div class="ui-body ui-body-a ui-corner-all">
+<p>This class will have two midterm exams and one exam during the finals period. The exams are equally weighted, and each exam will cover approximately one third of the course material. That is to say, the exams will not be cummulative; though, certain concepts covered early in the class will be relevant to later material as well.</p>
+<p>The purpose of the exams is for the student to demonstrate an understanding of the philosophical concepts, methods, and arguments introduced in course lectures.</p>
+</div>
+
+<div data-role="collapsibleset">
+<div data-role="collapsible" class="ui-corner-all eh-corners">
+<h3 id="exams-format">Format</h3>
+
+<p>Each exam is worth 100 points and has two parts:</p>
+<ol style="list-style-type: decimal">
+<li><p>Short answer questions (40 points)</p>
+<ul>
+<li><p>The short answer questions will test your ability to recall the philosophical concepts introduced in class.</p></li>
+<li><p>There will be some fill in the blank questions as well as questions that ask you to state particular principles of premises of interest.</p></li>
+<li><p>Complete responses to these questions should require no more than one paragraph.</p></li>
+</ul></li>
+<li><p>Extended response questions (60 points)</p>
+<ul>
+<li><p>The extended answer questions will test your comprehension of the philosophical discussions covered in class.</p></li>
+<li><p>You will be expected to explain clearly and succinctly certain philosophical arguments, positions, and principles.</p></li>
+<li><p>You will be given a choice of multiple prompts (between 3 and 6) from which you will choose a selection to answer (between 2 and 4).</p></li>
+<li><p>It is difficult to give a definitive length for these responses. The most accurate advice I can give is that you should answer the question completely. A more informative answer is that the response should be at least a paragraph, and likely two or three in most cases.</p></li>
+</ul></li>
+</ol>
+</div>
+
+<div data-role="collapsible" class="ui-corner-all eh-corners">
+
+<h3 id="grading">Grading</h3>
+
+<p>The grade for each of your answers will be determined by the <strong>accuracy</strong>, <strong>completeness</strong>, and <strong>clarity</strong> of your responses, with these components roughly equally weighted.</p>
+<ul>
+<li><p>A response that fails to address material relevant to the question will be docked for its incompleteness.</p></li>
+<li><p>A response that misconstrues the material or includes excessive material not relevant to the question will be docked for its inaccuracy.</p></li>
+<li><p>A response that is hard to reas or to follow, or a response that appears to be a mere regurgitation of various keywords from the notes will be docked for its unclarity.</p></li>
+</ul>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div data-role="page" data-title="Assessment" id="intro-assess-responses" class="eh-page">
+
+<div role="main" class="ui-content wrap">
+
+<h3 class="ui-bar ui-bar-e ui-corner-all">Reading responses</h3>
+
+<div class="ui-body ui-body-a ui-corner-all">
+<p>Critical reading of texts is an invaluable skill in philosophical investigation. The reading responses are designed to help you hone this skill. Thus, you can think of reading responses as akin to lab reports in an introductory science class.</p>
+</div>
+
+<div data-role="collapsibleset">
+<div data-role="collapsible">
+<h3 id="format-1">Format</h3>
+
+<ul>
+<li><p>Reading responses are short writing assignments. They should be <strong>2-3 pages</strong> (double spaced, 11-12pt font, 1in margins) and have two parts:</p>
+<ol style="list-style-type: decimal">
+<li><p><em>Exegesis</em>: A summary of a portion of the reading under discussion, including argument premises, key theses, and significant implications. This part is intended for you to display your reading comprehension; the summary should be in your own words, and direct quotation should be used only sparingly.</p></li>
+<li><p><em>Critique</em>: An analysis of the philosophical content of the reading under discussion. The nature of this section is fairly open ended. Some options include: a development of a critique of the author’s thesis, an alternative to the author’s proposal, an application of the author’s proposal to an aspect of daily life, a comparison of the theory to alternate theories discussed in class.</p></li>
+</ol></li>
+<li><p>You should dedicate approximately equal space to each part.</p></li>
+<li><p>The frst page of your response should include <strong>your name, the title of the article under discussion</strong>, and <strong>the assignment due date</strong>.</p></li>
+<li><p>Reading responses should be saved in <strong>PDF format</strong> and submitted via Canvas by noon on the appropriate due date. Almost all current word processing programs allow you to export files as PDF. If you are uncertain how to do this, please take the time to learn well before the first assignment due date.</p></li>
+</ul>
+</div>
+
+<div data-role="collapsible">
+<h3 id="grading-1">Grading</h3>
+
+<p>Each reading response is worth <strong>40 points</strong>. The exegesis and critique are each worth 15 points, with the remaining 10 points for the overall clarity and cohesion of the response.</p>
+<p>There are 6 reading response assignments throughout the semester, one for each module covered. Each response must address one of the readings from the relevant module. Your final grade will only include 5 responses, and I will throw out your lowest response grade.</p>
+<p>The grading criteria for each section of the response are as follows, with the criteria roughly equally weighted:</p>
+<ul>
+<li><p>Exegesis</p>
+<ul>
+<li><p><em>Accuracy</em>: The exegesis should accurately portray the author’s position.</p></li>
+<li><p><em>Focus</em>: One cannot possibly summarize an entire philosophy paper in 1.5 pages. It is important to focus one’s discussion on a specific portion of the reading.</p></li>
+<li><p><em>Detail</em>: In philosophical writing, the method one uses and the arguments one employs are just as important as the conclusion one goes for. It is important to present the details of the portion of the reading you focus on, and not just the author’s main conclusion.</p></li>
+</ul></li>
+<li><p>Critique</p>
+<ul>
+<li><p><em>Originality</em>: You are not expected to revolutionize the field of philosophy, but your critique should reflect your own thinking on the issue. You can make use of class lectures and the introductions in the textbook in forming your ideas, but be sure to acknowledge any sources you use.</p></li>
+<li><p><em>Relevance</em>: The critique should address the issues presented in the exegesis.</p></li>
+<li><p><em>Specificity</em>: When offering a critique, it is important to be clear on just what issue one is addressing. Broad generalizations can be provacative, but it is attention to the specific issues that makes a critique compelling.</p></li>
+</ul></li>
+</ul>
+</div>
+
+<div data-role="collapsible">
+<h3>Schedule</h3>
+
+<table data-role="table" data-mode="" >
+  <tr>
+    <th>Date</th>
+    <th>Module</th>
+    <th>Requirements</th>
+  </tr>
+  <tr>
+    <td>Sept 18</td>
+    <td>Philosophical method</td>
+    <td>Exegesis only</td>
+  </tr>
+  <tr>
+    <td>Oct 06</td>
+    <td>Epistemology</td>
+    <td>Exegesis only</td>
+  </tr>
+  <tr>
+    <td>Oct 23</td>
+    <td>Mind</td>
+    <td>Exegesis + critique (pass/fail)</td>
+  </tr>
+  <tr>
+    <td>Nov 06</td>
+    <td>Metaphysics</td>
+    <td>Exegesis + critique</td>
+  </tr>
+  <tr>
+    <td>Nov 24</td>
+    <td>Ethics</td>
+    <td>Exegesis + critique</td>
+  </tr>
+  <tr>
+    <td>Dec 11</td>
+    <td>Political philosophy</td>
+    <td>Exegesis + critique</td>
+  </tr>
+</table>
+
+</div>
+</div>
+
+</div>
+</div>
+
+<div data-role="page" data-title="Schedule" id="intro-sched-overview" class="eh-page">
+
+<div role="main" class="ui-content wrap">
+
+<h2 class="ui-bar ui-bar-e ui-corner-all">Course schedule</h2>
+
+<div class="ui-body ui-body-a ui-corner-all">
+<p>The course is broken down into 5 <strong>modules</strong> corresponding to 5 prominent sub-disciplines of analytic philosophy.</p>
+</div>
+
+<div data-role="collapsibleset" data-inset="false" class="ui-body ui-corner-all">
+<div data-role="collapsible">
+    <h3>Philosophical method and Epistemology</h3>
+    <table data-role="table" data-mode="columntoggle" data-inset="false" class="ui-body-d table-stripe ui-corner-all">
+<thead>
+<tr>
+<th>Topic</th>
+<th>Date</th>
+<th>Readings</th>
+<th data-priority="3">Assignments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Syllabus/Value of philosophy</td>
+<td>09/04/2015</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Reason</td>
+<td>09/08/2015</td>
+<td>William James, <em>The Will to Believe</em>, pp. 76-85</td>
+<td></td>
+</tr>
+<tr>
+<td>Argument</td>
+<td>09/11/2015</td>
+<td>Blaise Pascal, <em>The Wager</em>, pp. 59-63</td>
+<td></td>
+</tr>
+<tr style="border-bottom: 1px solid #000;">
+<td>Belief</td>
+<td>09/15/2015</td>
+<td>W.K. Clifford, <em>The Ethics of Belief</em>, on Canvas</td>
+<td></td>
+</tr>
+<tr>
+<td>External world</td>
+<td>09/18/2015</td>
+<td>Rene Descartes, <em>Meditations I and II</em>, pp. 299-303, 356-361</td>
+<td>Phil method response due (exegesis only)</td>
+</tr>
+<tr>
+<td></td>
+<td>09/22/2015</td>
+<td>G.E. Moore, <em>Proof of an External World</em>, pp. 312-318</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Rae Langton, <em>Ignorance of Things in Themselves</em>, pp. 335-345</td>
+<td></td>
+</tr>
+<tr>
+<td>Analysis of Knowledge</td>
+<td>09/25/2015</td>
+<td>Plato, <em>Meno</em>, pp. 103-108</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Edmund Gettier, <em>Is Justified True Belief Knowledge?</em>, pp. 108-111</td>
+<td></td>
+</tr>
+<tr>
+<td>Problem of Induction</td>
+<td>09/29/2015</td>
+<td>David Hume, <em>Sceptical Doubts Concerning the Operations of the Understanding</em>, pp. 141-149</td>
+<td></td>
+</tr>
+<tr style="border-bottom: 1px solid #000;">
+<td></td>
+<td>10/02/2015</td>
+<td>Karl Popper, <em>The Problem of Induction</em>, pp. 160-170</td>
+<td></td>
+</tr>
+<tr>
+<td>Midterm Exam 1</td>
+<td>10/06/2015</td>
+<td>Covers <em>Philosophical method</em> and <em>Epistemology</em></td>
+<td>Epistemology response due (exegesis only)</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div data-role="collapsible">
+<h3>Mind and Metaphysics</h3>
+<table data-role="table" data-mode="columntoggle" class="ui-body-d table-stripe ui-corner-all">
+<thead>
+<tr>
+<th>Topic</th>
+<th>Date</th>
+<th>Readings</th>
+<th data-priority="3">Assignments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mind and body</td>
+<td>10/09/2015</td>
+<td>Editors, <em>Ch 8 Introduction</em>, pp. 351-355</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>10/13/2015</td>
+<td>Patricia Churchland, <em>Are Mental States Irreducible to Neurological States?</em>, pp. 424-430</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Hilary Putnam, <em>The Nature of Mental States</em>, pp. 379-386</td>
+<td></td>
+</tr>
+<tr>
+<td>Personal Identity</td>
+<td>10/16/2015</td>
+<td>John Locke, <em>Of Identity and Diversity</em>, pp. 544-551</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Derek Parfit, <em>Personal Identity</em>, pp. 558-570</td>
+<td></td>
+</tr>
+<tr>
+<td>Artificial Intelligence</td>
+<td>10/20/2015</td>
+<td>Alan Turing, <em>Can Machines Think?</em>, on Canvas</td>
+<td></td>
+</tr>
+<tr style="border-bottom: 1px solid #000;">
+<td></td>
+<td></td>
+<td>John Searle, <em>Can Computers Think?</em>, pp. 387-393</td>
+<td></td>
+</tr>
+<tr>
+<td>God's existence</td>
+<td>10/23/2015</td>
+<td>Thomas Aquinas, <em>The Five Ways</em>, pp. 11-14</td>
+<td>Mind response due (exegesis + critique [ungraded])</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Roger White, <em>The Argument from Cosmological Fine Tuning</em>, pp. 43-50</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>10/27/2015</td>
+<td>William Rowe, <em>The Problem of Evil and Some Varieties of Atheism</em>, pp. 15-23</td>
+<td></td>
+</tr>
+<tr>
+<td>Free Will</td>
+<td>10/30/2015</td>
+<td>Galen Strawson, <em>Free Will</em>, pp. 588-597</td>
+<td></td>
+</tr>
+<tr style="border-bottom: 1px solid #000;">
+<td></td>
+<td>11/03/2015</td>
+<td>Harry Frankfurt, <em>Alternate Possibilities and Moral Responsibility</em>, pp. 612-620</td>
+<td></td>
+</tr>
+<tr>
+<td>Midterm Exam 2</td>
+<td>11/06/2015</td>
+<td>Covers <em>Mind</em> and <em>Metaphysics</em></td>
+<td>Metaphysics response due (exegesis + critique)</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div data-role="collapsible">
+  <h3>Ethics and Political Philosophy</h3>
+<table data-role="table" data-mode="columntoggle" class="ui-body-d table-stripe ui-corner-all">
+<thead>
+<tr>
+<th>Topic</th>
+<th>Date</th>
+<th>Readings</th>
+<th data-priority="3">Assignments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Moral relativism</td>
+<td>11/10/2015</td>
+<td>Philippa Foot, <em>Moral Relativism</em>, pp. 677-684</td>
+<td></td>
+</tr>
+<tr>
+<td>Moral realism</td>
+<td>11/13/2015</td>
+<td>J.S. Mill, <em>Utilitarianism</em>, pp. 751-760</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>11/17/2015</td>
+<td>Rosalind Hursthouse, <em>Virtue Ethics</em>, pp. 781-788</td>
+<td></td>
+</tr>
+<tr>
+<td>Applied ethics</td>
+<td>11/20/2015</td>
+<td>Peter Singer, <em>Famine, Affluence, and Morality</em>, pp. 865-871</td>
+<td></td>
+</tr>
+<tr style="border-bottom: 1px solid #000;">
+<td></td>
+<td>11/24/2015</td>
+<td>Judith Jarvis Thomson, <em>A Defense of Abortion</em>, pp. 883-891</td>
+<td>Ethics response due (exegesis + critique)</td>
+</tr>
+<tr style="border-bottom: 1px solid #000;">
+<td>No class</td>
+<td>11/27/2015</td>
+<td>Thanksgiving break</td>
+<td></td>
+</tr>
+<tr>
+<td>Justice and the state</td>
+<td>12/01/2015</td>
+<td>John Rawls, <em>A Theory of Justice</em>, pp. 788-795</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>12/04/2015</td>
+<td>Jean-Jacques Rousseau, <em>The Social Contract</em>, pp. 945-953</td>
+<td></td>
+</tr>
+<tr>
+<td>Liberty and equality</td>
+<td>12/08/2015</td>
+<td>J.S. Mill, <em>On Liberty</em>, pp. 982-990</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>12/11/2015</td>
+<td>Martha Nussbaum, <em>Political Equality</em>, pp. 1037-1046</td>
+<td>Political phil response due (exegesis + critique)</td>
+</tr>
+<tr style="border-bottom: 1px solid #000;">
+<td></td>
+<td></td>
+<td>Robert Nozick, <em>Distributive Justice</em>, pp. 1056-1064</td>
+<td></td>
+</tr>
+<tr>
+<td>No class</td>
+<td>12/15/2015</td>
+<td>Study day</td>
+<td></td>
+</tr>
+<tr>
+<td>Final exam</td>
+<td>12/18/2015</td>
+<td>Covers <em>Ethics</em> and <em>Political philosophy</em></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<!--Value of philosophy-->
+<div data-role="page" data-title="What is philosophy?" id="intro-whatphil-kinds" class="eh-page">
+
+<div role="main" class="ui-content ui-corner-all wrap">
+
+<div class="ui-corner-all eh-corners">
+<div class="ui-bar ui-bar-a">
+<h2>The first philosophical topic we will investigate is a self-referential one:</h2>
+</div>
+<div class="ui-body ui-body-a eh-bigger">
+  <p>What is philosophy?</p>
+</div>
+</div>
+
+<a href="#pop-aristotle" data-rel="popup" data-position-to="window" data-transition="fade" class="ui-btn ui-btn-a ui-icon-camera ui-btn-icon-right ui-corner-all">Aristotle</a>
+
+<div style="padding: 1em;"></div>
+
+    <div data-role="popup" id="pop-aristotle" data-overlay-theme="b" data-theme="b" data-corners="true">
+      <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+      <img src="../images/aristotle.jpg" style="max-height: 400px;" alt="Aristotle">
+    </div>
+
+<h3 class="ui-bar ui-bar-e ui-corner-all">"Philosophy" is used in a number of different ways:</h3>
+
+<div data-role="collapsibleset" data-inset="false" class="ui-body ui-corner-all">
+<div data-role="collapsible">
+  <h1>One's policy for life</h1>
+  <p class="eh-bigger">"My philosophy of life is YOLO"</p>
+</div>
+<div data-role="collapsible">
+  <h1>A way of approaching thought</h1>
+  <p class="eh-bigger">"She's a very philosophical person. She always thinks very deeply about things."</p>
+</div>
+<div data-role="collapsible">
+  <h2>An academic discipline</h2>
+  <p class="eh-bigger">"The philosophy department is located in Dickson Hall."</p>
+</div>
+</div>
+
+<div style="padding: 1em;"></div>
+
+<h3 class="ui-bar ui-bar-e ui-corner-all">Philosophy as an academic discipline</h3>
+
+<div data-role="collapsibleset" data-inset="false" class="ui-body ui-corner-all">
+<div data-role="collapsible">
+  <h1>Topic of study</h1>
+  <ul class="eh-bigger">
+    <li>Epistemology investigates the nature of knowledge</li>
+    <li>Metaphysics investigates the structure of the world</li>
+    <li>Ethics investigates the nature of morality and how to behave</li>
+  </ul>
+</div>
+<div data-role="collapsible">
+  <h1>Goal of engaging in the study</h1>
+  <ul class="eh-bigger">
+    <li>To improve one's understanding of the world</li>
+    <li>To come to terms with the human condition</li>
+    <li>To look smart and impress your friends</li>
+  </ul>
+</div>
+<div data-role="collapsible">
+  <h2>Method of undertaking the study</h2>
+  <ul class="eh-bigger">
+    <li>Provide reasons</li>
+    <li>Offer arguments</li>
+    <li>Analyze concepts</li>
+  </ul>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div data-role="page" data-title="What is philosophy?" id="intro-whatphil-progress" class="eh-page">
+
+<div role="main" class="ui-content ui-corner-all wrap">
+
+<h2 class="ui-bar ui-bar-e ui-corner-all">How does philosophy improve our understanding?</h2>
+
+<div data-role="collapsibleset">
+<div data-role="collapsible">
+  <h2>Option 1: Art as a model</h2>
+
+  <ul class="eh-bigger">
+    <li>Art can be a source of <strong>profound</strong> insight. Individuals can access the <strong>sublime</strong> through engaging with art.</li> 
+    <li>An artist can improve understanding through metaphor and imagery.</li>
+  </ul>
+</div>  
+  <div data-role="collapsible">
+    <h2>Application to philosophy</h2>
+    <ul class="eh-bigger">
+    <li>Good philosophy can also be a source of profound insight.</li> 
+    <li>But artistic insight is that it is often very <strong>fleeting</strong> and <strong>personal</strong> experience.</li>
+    <li>Philosophy aims to provide more <strong>lasting</strong> and <strong>objective</strong> understanding.</li>
+  </ul>
+  </div>
+</div>
+
+<div data-role="collapsibleset">
+<div data-role="collapsible">
+  <h2>Option 2: Science as a model</h2>
+
+  <ul class="eh-bigger">
+    <li>Science improves our understanding of the world by <strong>discovering</strong> new facts about the way the world works.</li> 
+    <li>When the scientist's work is accepted, we have a <strong>broader</strong> understanding of the world.</li>
+  </ul>
+</div>  
+  <div data-role="collapsible">
+    <h2>Application to philosophy</h2>
+    <ul class="eh-bigger">
+    <li>But this method of progress doesn't work for philosophy.</li> 
+    <li>Philosophy rarely results in one set of facts being universally accepted.</li>
+    <li>We will discuss many debates that originated long ago but are still alive today.</li>
+  </ul>
+  </div>
+</div>
+<div data-role="collapsible">
+  <h2>Option 3: Depth of understanding</h2>
+
+  <ul class="eh-bigger">
+    <li>But philosophy can make progress! It does so by:</li> 
+    <li><strong>challenging preconceived notions</strong> about the way the world works,</li>
+    <li><strong>uncovering nuance in our concepts</strong> of the world, and</li>
+    <li>requiring us to <strong>defend our beliefs.</strong></li>
+  </ul>
+
+</div>
+
+</div>
+</div>
+
+<div data-role="page" data-title="For next class" id="intro-nextclass" class="eh-page">
+
+<div role="main" class="ui-content ui-corner-all wrap">
+
+<h2 class="ui-bar ui-bar-e ui-corner-all">For next class:</h2>
+
+<div class="ui-corner-all eh-corners">
+  <div class="ui-bar ui-bar-a">
+    Discussion topic
+  </div>
+  <div class="ui-body ui-body-a">
+    <p>Reason</p>
+  </div>
+</div>
+
+<div class="ui-corner-all eh-corners">
+  <div class="ui-bar ui-bar-a">
+    Readings
+  </div>
+  <div class="ui-body ui-body-a">
+    <p>William James, <em>The Will to Believe</em>, pp. 76-85</p>
+  </div>
+</div>
+
+<div class="ui-corner-all eh-corners">
+  <div class="ui-bar ui-bar-a">
+    Assignments
+  </div>
+  <div class="ui-body ui-body-a">
+    <p>Look over the additional resources on the course landing page. Pay special attention to the <em>Guide to reading philosophy</em></p>
+  </div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

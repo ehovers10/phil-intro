@@ -1,0 +1,11 @@
+{% for slide in page.slides %}
+<div data-role="page" data-title="{{ slide }}" id="{{ slide | slugify }}" data-theme="{{ page.theme }}" class="eh-page">
+
+<div role="main" class="ui-content wrap eh-bigger">
+
+<h2 class="ui-bar ui-bar-a eh-two-corners">{{ slide }}</h2>
+  {% include_relative {{ slide | slugify }}.html %}
+</div>
+</div>
+  
+{% endfor %}

@@ -1,0 +1,16 @@
+<div data-role="tabs" data-theme="d">
+
+<div data-role="navbar" data-theme="d">
+  <ul>
+    <li><a href="#{{ include.tab1 | slugify }}" class="ui-btn-active" data-ajax="false">{{ include.tab1 }}</a></li>
+    <li><a href="#{{ include.tab2 | slugify }}" data-ajax="false">{{ include.tab2 }}</a></li>
+
+{% if include.tab3 %}
+    <li><a href="#{{ include.tab3 | slugify }}" data-ajax="false">{{ include.tab3 }}</a></li>
+  {% if include.tab4 %}
+    <li><a href="#{{ include.tab4 | slugify }}" data-ajax="false">{{ include.tab4 }}</a></li>
+  {% endif %}
+{% endif %}
+
+  </ul>
+</div>

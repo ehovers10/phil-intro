@@ -26,6 +26,12 @@
   -webkit-border-top-right-radius: inherit;
   border-top-right-radius: inherit;
 }
+.eh-two-corners .ui-bar {
+  -webkit-border-top-left-radius: 20px;
+  border-top-left-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
 .eh-corners .ui-body {
   border-top-width: 0;
   -webkit-border-bottom-left-radius: inherit;

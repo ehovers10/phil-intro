@@ -1,0 +1,423 @@
+\documentclass[10pt,letterpaper,xcolor=dvipsnames,handout]{beamer}
+
+%\usepackage[colorlinks=true,linkcolor=blue]{hyperref}
+\usepackage{amssymb,mathabx}
+\usepackage{linguex}
+\usepackage{verbatim,enumerate,multirow}
+\usepackage{xcolor}
+%\usepackage{floatflt}
+
+\usepackage{pgfpages} % to put several slides on one page
+\pgfpagesuselayout{4 on 1}[letterpaper, landscape, border shrink=5mm]
+
+\mode<article>{}
+
+%Template themes
+\usetheme{boxes}
+%\useoutertheme{miniframes}
+\useoutertheme{shadow}
+
+%Templates
+\setbeamertemplate{blocks}[rounded][shadow=true]
+\setbeamertemplate{navigation symbols}[vertical]
+\setbeamertemplate{section in head/foot shaded}[default][20]
+\setbeamertemplate{title}
+
+\setbeamertemplate{headline}
+{
+	\begin{beamercolorbox}[ht=3ex,dp=1ex]{erikcolor1}
+		\insertshorttitle
+		%\insertsectionnavigationhorizontal{\textwidth}{}{}
+		%\usebeamerfont{title in head/foot}
+	\end{beamercolorbox}
+	\begin{beamercolorbox}[ht=3ex,dp=2ex]{erikcolor2}
+	  \insertsectionnavigationhorizontal{\textwidth}{}{}
+		%\insertsubsectionnavigationhorizontal{\textwidth}{}{}
+		%\insertsubsection
+	\end{beamercolorbox}
+}
+\setbeamertemplate{footline}
+{
+	\begin{beamercolorbox}[ht=3ex,dp=1ex]{erikcolor1}
+		\insertshortinstitute[width=.33\textwidth,center] %$\triangleright$
+		\insertshortsubtitle[width=.33\textwidth,center] %$\triangleright$
+		\insertshortdate[width=.20\textwidth,center] %$\triangleright$
+		\hfill\insertframenumber\,/\,\inserttotalframenumber\;\;\;
+	\end{beamercolorbox}
+}
+
+%Font themes
+\usefonttheme{structuresmallcapsserif}
+%\usefonttheme[onlysmall]{structurebold}
+\usefonttheme{serif}
+
+%Color themes
+%\usecolortheme{beetle}
+%\usecolortheme{rose}
+
+%Head and foot lines colors
+\setbeamercolor{erikcolor1}{fg=white,bg=blue!70!green}
+\setbeamercolor{erikcolor2}{fg=white,bg=blue!60!green!10!white}
+
+%Titles color
+\setbeamercolor{frametitle}{fg=black,bg=green!30!blue!30!white}
+\setbeamercolor{title}{fg=black,bg=green!30!blue!30!white}
+
+%Block color
+\setbeamercolor{block title}{fg=white,bg=blue!70!green}
+\setbeamercolor{block body}{fg=black,bg=green!30!blue!30!white}
+
+%Background color
+\setbeamercolor{background canvas}{bg=}
+
+%Covered items color
+\setbeamercovered{transparent}
+
+\AtBeginSection[]
+{
+   \begin{frame}<beamer>
+       \frametitle{Lecture plan}
+       \tableofcontents[currentsection,currentsubsection]
+   \end{frame}
+}
+
+
+
+\title{Recognizing, categorizing, and assessing arguments}
+\subtitle{Basic tools}
+\author[Hoversten]{Erik Hoversten}
+\institute[lrp-f14]{Logic, reason, and persuasion: fall 2014 \\ Rutgers University}
+\date[09/10/2014]{September 10, 2014}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\section{Recognizing arguments}
+
+\begin{frame}
+\frametitle{The meanings of statements}
+
+\begin{itemize}
+  \item Statements are sentences that are put forward with \textbf{assertoric} force.
+  \item Sentences can also be put forward as \textbf{questions}, \textbf{suppositions}, or \textbf{commands}.
+  \item A propositions is the \textbf{content} of a sentence; the meaning to which different force can be applied.
+\end{itemize}
+
+\begin{block}<2->{Example}
+\begin{tabular}{lll}
+Sentence & Force & Content \\ \hline
+``The door is ajar.'' & statement & \textit{the door is ajar} \\
+``Is the door ajar?'' & question & \textit{the door is ajar} \\
+``I wonder if the door is ajar.'' & supposition & \textit{the door is ajar} \\
+``Shut the door!'' & command & \textit{the door is ajar} \\
+\end{tabular}
+\end{block}
+
+\uncover<3->{\textbf{Assertoric} force is the linguistic force whereby one makes a claim about the world.}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Arguments in general}
+
+\begin{block}{Arguments are:}
+\begin{enumerate}
+  \item sets of propositions 
+  \item where the premises stand in a relation of support to the conclusion, and
+  \item the conclusion is put forward with assertoric force
+\end{enumerate}  
+\end{block}
+
+\begin{block}<2->{Not just anything is an argument}
+\begin{itemize}
+  \item It's not always obvious how to reconstruct an argument in our sense from a bit of prose that we may be presented with.
+  \item Even if the writing is clear enough that we can identify the propositions each statement makes, not all sets of propositions constitute arguments.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Examples of non-arguments}
+
+\begin{block}{No supporting premises}
+  \begin{itemize}
+    \item Bald claims: New Jersey is better than New York in every way.
+    \item Opinion: Anyone who can root for the Yankees has got a view of baseball that I can't understand.
+  \end{itemize}
+\end{block}
+
+\begin{block}<2->{No relation of support}
+\begin{itemize}
+   \item Report, exposition, illustration
+   \item These provide a list of statements, but don't impose a structure on them.
+\end{itemize}
+\end{block}
+
+\begin{block}<3->{Lack appropriate force}
+  \begin{itemize}
+    \item Warnings: Whatever you do, don't go to the Golden Rail on gamedays.
+    \item Advice: Before taking on a job during the semester, you should get a sense of your full course load.
+  \end{itemize}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Premise and conclusion indicators}
+
+\begin{block}{Common premise indicators}
+\begin{itemize}
+  \item Since...
+  \item Because of...
+  \item In light of the fact that...
+  \item It's well established that...
+\end{itemize}
+\end{block}
+
+\begin{block}<2->{Common conclusion indicators}
+\begin{itemize}
+  \item Therefore... Thus... So...
+  \item It follows that...
+  \item One can conclude that...
+  \item $\therefore$
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Recognizing deductive arguments}
+
+\begin{block}{Common deduction indicators}
+\begin{itemize}
+  \item Necessarily...
+  \item It follows directly...
+  \item It must therefore be that...
+\end{itemize}
+
+\end{block}
+
+\begin{block}<2->{Deductive argument types}
+\begin{itemize}
+  \item Definitions
+  \item Categorical syllogism
+  \item Hypothetical syllogism
+  \item Disjunctive syllogism
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Recognizing inductive arguments}
+
+\begin{block}{Common induction indicators}
+\begin{itemize}
+  \item Probably...
+  \item There's a good chance that...
+  \item Most likely...
+\end{itemize}
+
+\end{block}
+
+\begin{block}<2->{Inductive argument types}
+\begin{itemize}
+  \item Prediction
+  \item Analogy
+  \item Generalization
+  \item Causal inference
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+\section{Propositions}
+
+\begin{frame}
+\frametitle{Atomic propositions}
+
+\begin{itemize}
+  \item Atomic propositions are the basic building blocks of arguments.
+  \item They are composed of a \textbf{subject} and a \textbf{predicate}.
+  \item They are called \textbf{particular} if their subject is a specific individual.
+  \item They are called \textbf{general} if their subject is a group of individuals or an unspecific individual.
+\end{itemize}
+
+\begin{block}<2->{Examples}
+\begin{itemize}
+  \item John is American. \uncover<3->{\textcolor{red}{(particular)}}
+  \item Mary went to the bank. \uncover<3->{\textcolor{red}{(particular)}}
+  \item Dogs have tails. \uncover<3->{\textcolor{red}{(general - group)}}
+  \item The first person on Mars will be very brave. \uncover<3->{\textcolor{red}{(general - unspecific)}}
+  \item Some swans are black. \uncover<3->{\textcolor{red}{(general - group and unspecific)}}
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Compound propositions}
+
+\begin{block}{Negations...}
+\begin{itemize}
+  \item are composed of a negation word (not, no, un-) plus an atomic proposition.
+  \item have the opposite truth value of the atomic proposition.
+  \item \textit{It is not the case that} the Moon is made of cheese.
+\end{itemize}
+\end{block}
+
+\begin{block}<2->{Disjunctions...}
+\begin{itemize}
+  \item are composed of two atomic propositions connected by ``or''.
+  \item are true just in case \textit{either} of the atomic propositions are.
+  \item John is stuck in traffic \textit{or} he overslept.
+\end{itemize}
+\end{block}
+
+\begin{block}<3->{Conjunctions...}
+\begin{itemize}
+  \item are composed of two propositions connected by ``and''.
+  \item are true only if \textit{both} of the atomic propositions are.
+  \item Susan had the polenta \textit{and} Willie had the eggplant.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Compound propositions}
+
+\begin{block}{Conditionals}
+\begin{itemize}
+  \item Conditionals are composed of two atomic propositions connected by ``if $\ldots$ then $\underline{\;\;\;}$''.
+  \item we call the first proposition the \textbf{antecedent}.
+  \item we call the second proposition the \textbf{consequent}.
+\end{itemize}
+\end{block}
+
+\begin{block}<2->{Sufficient condition}
+\begin{itemize}
+  \item The conditional says that whenever you have the antecedent, that is enough to get the consequent. This means that the \textit{antecedent} is a \textbf{sufficient} condition for the consequent.
+\end{itemize}
+\end{block}
+
+\begin{block}<3->{Necessary condition}
+\begin{itemize}
+  \item The conditional says that you can't have the antecedent without also having the consequent. This means that the \textit{consequent} is a \textbf{necessary} condition of the antecedent.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Example arguments with conditionals}
+  
+  \begin{block}{Modus ponens}
+  \begin{enumerate}
+    \item If it rained last night, then the sidewalks are wet.
+    \item It rained last night. \uncover<2->{\textcolor{red}{(\textit{sufficient condition})}}
+    \item $\therefore$, the sidewalks are wet.
+  \end{enumerate}
+  \end{block}
+  
+  \begin{block}{Modus tollens}<3->
+  \begin{enumerate}
+    \item If it rained last night, then the sidewalks are wet.
+    \item The sidewalks are \textbf{not} wet. \uncover<4->{\textcolor{red}{(\textit{necessary condition})}}
+    \item $\therefore$, it did \textbf{not} rain last night.
+  \end{enumerate}
+  \end{block}
+  
+\end{frame}
+
+
+
+\section{Evaluating arguments}
+
+\begin{frame}
+\frametitle{Deductive arguments}
+
+\begin{block}{Validity (measures the \textit{support} relation)}
+\begin{itemize}
+  \item Deductive arguments purport to give conclusive reason to believe the conclusion.
+  \item If the argument is a good one, the conclusion follows directly from the premises.
+  \item We say that a deductive argument is valid just in case \textbf{if the premises are all true, then the conclusion must be true.}
+\end{itemize}
+\end{block}
+
+\begin{block}<2->{Soundness (measures the \textit{truth} of the premises)}
+\begin{itemize}
+  \item But not all valid arguments have true premises.
+  \item If a valid argument also has true premises, we say that it is \textbf{sound}.
+  \item If we have a sound argument, we know for certain that the conclusion is true.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Example problematic deductive arguments}
+  
+  \begin{block}{Invalid argument}
+  \begin{enumerate}
+    \item All penguins are birds. \uncover<2->{\textcolor{red}{(True)}}
+    \item Some birds fly. \uncover<2->{\textcolor{red}{(True)}}
+    \item $\therefore$, penguins fly. \uncover<2->{\textcolor{red}{(False)}}
+  \end{enumerate}
+  \end{block}
+  
+  \begin{block}<3->{Valid but unsound argument \uncover<4->{\textcolor{red}{(disjunctive syllogism)}}}
+  \begin{enumerate}
+    \item Either Eli Manning is a running back or dolphins are fish. \uncover<4->{\textcolor{red}{(False)}}
+    \item Dolphins are \textbf{not} fish. \uncover<4->{\textcolor{red}{(True)}}
+    \item $\therefore$, Eli Manning is a running back. \uncover<4->{\textcolor{red}{(False)}}
+  \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Inductive arguments}
+
+\begin{block}{Strength (measures the \textit{support} relation)}
+\begin{itemize}
+  \item Inductive arguments purport to give reason to believe that the conclusion is probable.
+  \item The better the argument is, the more probable the conclusion becomes.
+  \item We say that an inductive argument is \textit{strong} just in case \textbf{if the premises are all true, then the conclusion is very likely to be true.}
+\end{itemize}
+\end{block}
+
+\begin{block}<2->{Cogency (measures the \textit{truth} of the premises)}
+\begin{itemize}
+  \item But not all strong arguments have true premises.
+  \item If a strong argument also has true premises, we say that it is \textbf{cogent}.
+  \item If we have a cogent argument, we know that the conclusion very probably true.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Example problematic inductive arguments}
+  
+  \begin{block}{Weak argument \uncover<4->{\textcolor{red}{(does not provide a representative sample)}}}
+  \begin{enumerate}
+    \item I know a lawyer who is a total liar. \uncover<2->{\textcolor{red}{(True)}}
+    \item Bill is also a lawyer. \uncover<2->{\textcolor{red}{(True)}}
+    \item $\therefore$, Bill is probably a liar. \uncover<2->{\textcolor{red}{(False)}}
+  \end{enumerate}
+  \end{block}
+  
+  \begin{block}<3->{Strong but not cogent argument \uncover<4->{\textcolor{red}{(the study was inaccurately run)}}}
+  \begin{enumerate}
+    \item 89\% of male college basketball players are over 6 feet tall. \uncover<4->{\textcolor{red}{(False)}}
+    \item Bill is a college basketball player. \uncover<4->{\textcolor{red}{(True)}}
+    \item $\therefore$, Bill is probably over 6 feet tall. \uncover<4->{\textcolor{red}{(False)}}
+  \end{enumerate}
+  \end{block}
+\end{frame}
+
+\end{document}
