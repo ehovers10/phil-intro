@@ -1,17 +1,17 @@
 <!-- Header -->
 <div data-role="header" id="{{ page.stitle }}-header" data-position="fixed">
   <a href="#{{ page.stitle }}-nav-panel" class="ui-btn ui-btn-e ui-btn-left ui-btn-icon-notext ui-icon-bars ui-corner-all">Nav</a>
-  <h1>{{ page.stitle | capitalize }}: {{ page.date | date: "%D" }}</h1>
+  <h1>Page title</h1>
   <div data-role="controlgroup" data-type="horizontal" class="ui-btn-right">
     <a href="#" id="prev-link" class="ui-btn ui-btn-e ui-btn-icon-notext ui-icon-arrow-l ui-corner-all">Prev</a>
     <a href="#" id="next-link" class="ui-btn ui-btn-e ui-btn-icon-notext ui-icon-arrow-r ui-corner-all">Next</a>
   </div>
+  {% include progress.html %}
 </div>
 
 <!-- Footer -->
 <div data-role="footer" id="{{ page.stitle }}-foot" data-position="fixed" class="foot">
   <a href="{{ site.url }}{{ site.baseurl }}" rel="external" class="ui-btn-left ui-btn ui-btn-e ui-btn-icon-notext ui-icon-home ui-corner-all">Course Home</a>
-  <h1>Page title</h1>
+  <h1>{{ page.stitle | capitalize }}: {{ page.date | date: "%D" }}</h1>
   <a href="http://creativecommons.org/licenses/by/4.0/" rel="external" class="ui-btn-right ui-btn ui-btn-e ui-btn-icon-notext ui-corner-all eh-icon icon-creative-commons"></a>
-  {% include progress.html %}
 </div>

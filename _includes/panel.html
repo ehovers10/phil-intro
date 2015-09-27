@@ -4,8 +4,9 @@
 
 <ul data-role="listview" id="{{ page.stitle }}-nav">
   <li data-theme="b"><a href="#" data-rel="close" class="ui-btn ui-icon-carat-l ui-btn-icon-right">Close</a></li>
+  <li data-role="listdivider"></li>
     {% for bit in enav %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}/{{ bit.module }}/{{ bit.stitle }}" rel="external">{{ bit.date | date: "%m/%d"}}: {{ bit.title }}</a></li>
+    <li><a href="{{ site.url }}{{ site.baseurl }}/{{ page.module }}/{{ page.stitle }}/#{{ bit | slugify }}" rel="external">{{ bit }}</a></li>
     {% endfor %}
 </ul>
 
