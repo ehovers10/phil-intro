@@ -17,7 +17,7 @@ $( document ).on( "pagecontainerchange", function() {
   // Set progress bar
   /*$( "#progress" ).attr("value", point);*/
   $("#progress").val(point);
-  $("#progress").slider("refresh");
+  /*$("#progress").slider("refresh");*/
 
   // Change heading
   $( "[data-role='header'] h1" ).text( current );
