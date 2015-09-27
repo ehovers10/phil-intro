@@ -12,11 +12,10 @@ $(function(){
 $( document ).on( "pagecontainerchange", function() {
   
   var current = $( ".ui-page-active" ).jqmData( "title" ),
-      point = $( ".ui-page-active" ).index(),
-      trippy = 1;
+      point = $( ".ui-page-active" ).index();
 
   // Set progress bar
-  $( "#progress" ).attr("value", trippy);
+  $( "#progress" ).attr("value", point);
 
   // Change heading
   $( "[data-role='footer'] h1" ).text( current );
