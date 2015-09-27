@@ -15,7 +15,7 @@ $( document ).on( "pagecontainerchange", function() {
       point = $( ".ui-page-active" ).index();
 
   // Set progress bar
-  $( "input#progress" ).attr("value", 4);
+  $( "input#progress" ).attr("value", point);
 
   // Change heading
   $( "[data-role='footer'] h1" ).text( current );
