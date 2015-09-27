@@ -18,7 +18,7 @@ $( document ).on( "pagecontainerchange", function() {
   $( "#progress" ).attr("value", point);
 
   // Change heading
-  $( "[data-role='footer'] h1" ).text( current );
+  $( "[data-role='header'] h1" ).text( current );
 
   // Change next and previous links
   var next = "#" + $( ".ui-page-active" ).next( "[data-role='page']" ).attr("id"),
