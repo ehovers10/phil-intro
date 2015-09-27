@@ -12,7 +12,7 @@ $(function(){
 $( document ).on( "pagecontainerchange", function() {
   
   var current = $( ".ui-page-active" ).jqmData( "title" ),
-      point = $( "[data-role='page']" ).index( ".ui-page-active" );
+      point = $( ".ui-page-active" ).index( "[data-role='page']" );
 
   // Set progress bar
   $( "#progress" ).attr("value", point);
