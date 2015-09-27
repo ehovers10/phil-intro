@@ -1,12 +1,18 @@
+{% include tabb.html struc="The Problem, A Skeptical Solution" %}
+
+<div id="the-problem" class="ui-body ui-body-a" markdown="1">
+
 **Induction:** An argument that proceeds from a premise about observed facts to a conclusion about unobserved facts.
 
  Inductive Argument                        | Anti-inductive Argument
 :------------------------------------------|:-------------------------------------------
- 1. The last 10 9 days, the sun has risen. | 1'. The last 10 9 days, the sun has risen.
- 2. The pattern of laws is uniform.        | 2'. Every 10 9 days, the laws flip.
+ 1. The last 10<sup>9</sup> days, the sun has risen. | 1'. The last 10<sup>9</sup> days, the sun has risen.
+ 2. The pattern of laws is uniform.        | 2'. Every 10<sup>9</sup> days, the laws flip.
  3. So, the sun will rise tomorrow.        | 3'. So, the sun will not rise tomorrow.
+{: data-role="table" data-mode="" class="table-stripe ui-content ui-content-theme-f"}
 
-### What does it mean to trust our senses? {: bar}
+#### What does it mean to trust our senses? 
+{: .ui-bar}
 
 The two arguments above have exactly parallel structure. Each makes a prediction based on a store of evidence from our senses. But they come to the opposite conclusion. 
 
@@ -19,8 +25,14 @@ Clearly, the *Inductive Argument* is the one we use in practice. But what can th
 
 But notice that this is just to say that the world has always been uniform in the past, so it will probably be uniform in the future! Thus, this suggestion appeals to the very principle we are trying to justify.
 
-###Hume’s skeptical solution
+</div>
+
+<div id="a-skeptical-solution" class="ui-body ui-body-a" markdown="1">
 
 **Habit:** Our psychological makeup is such that we are impulsively inclined to expect the future to resemble the past
 
 **Justification vs. explanation:** This proposal explains why we tend to follow the inductive argument rather than the anti-inductive one, but it doesn’t show that the inductive argument is better justified, or more rational.
+
+</div>
+
+</div>

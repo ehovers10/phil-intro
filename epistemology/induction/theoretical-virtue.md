@@ -1,4 +1,6 @@
-### The Quine/Duhem thesis {: bar}
+{% include tabb.html struc="Quine/Duhem Thesis, Theoretical Virtues" %}
+
+<div id="quine-duhem-thesis" class="ui-body ui-body-a" markdown="1">
 
 Popper’s thesis, known as *Falsificationism* has been greatly influential. There’s no doubt that it provides an interesting insight into the nature of scientific inquiry. 
 
@@ -33,7 +35,15 @@ These elaborated theories both predict the results of our experiment. I have sav
 The Quine/Duhem thesis maintains that for any experiment you devise, there is some
 ancillary hypothesis that I can add to my claim such that it makes the right prediction.
 
+</div>
+
+<div id="theoretical-virtues" class="ui-body ui-body-a" markdown="1">
+
 The upshot is that we can’t just rely on the results of scientific experiments to decide between conflicting theories. As far as the experimental data is concerned, any single hypothesis is just as good as any other. Thus, we are still in need of an answer of the
 demarcation problem.
 
 It is at this point that Kitcher’s explanation of *independent testability*, *unification*, and *fecundity* comes in. His proposal is that while we can’t distinguish independent hypotheses based on the data, we can evaluate whole theories based on these criteria. What makes one theory better than another is that it meets these criteria to a greater extent.
+
+</div>
+
+</div>
