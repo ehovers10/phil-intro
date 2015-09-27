@@ -1,12 +1,11 @@
+{% assign enav = page.slides %}
+
 <div data-role="panel" id="{{ page.stitle }}-nav-panel" data-display="overlay">
 
 <ul data-role="listview" id="{{ page.stitle }}-nav">
   <li data-theme="b"><a href="#" data-rel="close" class="ui-btn ui-icon-carat-l ui-btn-icon-right">Close</a></li>
-    {% for thing in enav %}
-    <li data-role="list-divider">{{ thing.name | capitalize }}
-    {% for bit in thing.items %}
+    {% for bit in enav %}
     <li><a href="{{ site.url }}{{ site.baseurl }}/{{ bit.module }}/{{ bit.stitle }}" rel="external">{{ bit.date | date: "%m/%d"}}: {{ bit.title }}</a></li>
-    {% endfor %}
     {% endfor %}
 </ul>
 
