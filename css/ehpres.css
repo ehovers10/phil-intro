@@ -70,3 +70,10 @@
 .hid {
   display: none;
 }
+
+.prog-slider input {
+  display: none;
+}
+.prog-slider .ui-slider-track {
+  margin-left: 15px;
+}

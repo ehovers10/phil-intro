@@ -1,4 +1,5 @@
 ---
+kind: presentation
 layout: pres
 title: Analysis of Knowledge
 module: epistemology

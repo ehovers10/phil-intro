@@ -1,0 +1,12 @@
+{% for slide in page.slides %}
+<div data-role="page" data-title="{{ slide }}" id="{{ slide | slugify }}" data-theme="{{ page.theme }}" class="eh-page">
+
+<div role="main" class="ui-content wrap eh-bigger">
+
+  {% capture gus %}{% include uis.md %}{% include_relative {{ slide | slugify }}.md %}{% endcapture %}
+  {{ gus | markdownify }}
+
+</div>
+</div>
+  
+{% endfor %}

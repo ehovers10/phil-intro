@@ -1,4 +1,5 @@
 ---
+kind: presentation
 layout: pres
 title: External world skepticism
 stitle: skepticism

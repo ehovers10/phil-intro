@@ -11,10 +11,14 @@ $(function(){
 
 $( document ).on( "pagecontainerchange", function() {
   
-  var current = $( ".ui-page-active" ).jqmData( "title" );
+  var current = $( ".ui-page-active" ).jqmData( "title" ),
+      point = $( ".ui-page-active" ).index();
+
+  // Set progress bar
+  $( "input#progress" ).attr("value", point);
 
   // Change heading
-  $( "[data-role='header'] h1" ).text( current );
+  $( "[data-role='footer'] h1" ).text( current );
 
   // Change next and previous links
   var next = "#" + $( ".ui-page-active" ).next( "[data-role='page']" ).attr("id"),

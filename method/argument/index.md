@@ -1,0 +1,20 @@
+---
+kind: presentation
+layout: pres
+title: Philosophical Argument
+stitle: argument
+module: method
+date: 2015-09-11
+
+slides: ["Arguments as reasons",
+         "Argument structure",
+         "Kinds of argument",
+         "Assessing arguments",
+         "Procedure",
+         "Pascals wager",
+         "Pascals argument",
+         "Pascals support relation",
+         "Decision theory",
+         "Pascals reasoning",
+         "Objections"]
+---
