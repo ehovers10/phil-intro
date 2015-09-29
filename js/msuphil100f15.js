@@ -5,7 +5,7 @@ $(function(){
   $("[data-role=panel]").panel({ theme: "a" }).enhanceWithin();
   $("[data-role=footer]").toolbar({ theme: "a" }).enhanceWithin();
   $("[data-role=header]").toolbar({ theme: "a" }).enhanceWithin();
-  $(".prog-slider").slider({ theme: "a" }).enhanceWithin();
+  $("#progress").slider({ theme: "a" }).enhanceWithin();
 });
 
 // Inject page-specific content in externals
