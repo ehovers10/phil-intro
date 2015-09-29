@@ -15,8 +15,8 @@ $( document ).on( "pagecontainerchange", function() {
       point = $( ".ui-page-active" ).index( "[data-role='page']" );
 
   // Set progress bar
-  /*$( "#progress" ).attr("value", point);*/
-  $("#progress").val(point).slider("refresh");
+  $( "#progress" ).attr("value", point).slider("refresh");
+  /*$("#progress").val(point);*/
 
   // Change heading
   $( "[data-role='header'] h1" ).text( current );
