@@ -1,4 +1,4 @@
-{% include tabs.html tab1="Justified true belief" tab2="No false lemmas" %}
+{% include tabs.html tab1="Justified true belief" tab2="No false premises" %}
 
 <div id="justified-true-belief" class="ui-body ui-body-a">
 
@@ -35,19 +35,47 @@ we all have a fairly good sense of when one’s belief is justified. Perhaps we 
 
 {% include pop-image.html fname="Edmund" lname="Gettier" %}
 
+<div data-role="collapsibleset">
 <div data-role="collapsible">
 <h4>Jones' Ford</h4>
-<blockquote>Smith has good evidence that Jones, who is Smith’s coworker, owns a Ford. He has seen Jones driving around in one, Jones has brazenly flaunted registration papers for a Ford in front of Smith, and so on. On the basis of this evidence, Smith infers that someone in his office owns a Ford. As it so happens, Jones has recently sold his Ford. But it also happens that Thomas, another of Smith’s coworkers, owns a Ford; although, Smith has never seen him drive it.</blockquote>
+<p>Smith has good evidence that Jones, who is Smith’s coworker, owns a Ford. He has seen Jones driving around in one, Jones has brazenly flaunted registration papers for a Ford in front of Smith, and so on. On the basis of this evidence, Smith infers that someone in his office owns a Ford. As it so happens, Jones has recently sold his Ford. But it also happens that Thomas, another of Smith’s coworkers, owns a Ford; although, Smith has never seen him drive it.</p>
+
+<div data-role="collapsible">
+<h4><em>Does Smith know that someone in his office owns a Ford?</em></h4>
+<ul>
+  <li>Smith believes that someone owns a Ford.</li>
+  <li>It is true that someone owns a Ford, because Thomas does.</li>
+  <li>Smith formed his belief by making a justified inference from a belief that he was justified in holding; namely, that Jones owns a Ford.</li>
+</ul>
+</div>
+
+</div>
+<div data-role="collapsible">
+<h4>Job candidate</h4>
+<p>Smith and Jones are interviewing for a new job. Smith has good evidence that Jones will get the job; he overheard the president of the company saying that Jones is their man. He also counted the number of coins in Jones' pocket, and it was ten. On this basis, Smith forms the belief that <em>the man who will get the job has ten coins in his pocket.</em></p>
+<p>As it turns out, Smith is the one who will get the job, and he also has ten coins in his pocket.</p>
+
+<div data-role="collapsible">
+<h4><em>Does Smith know that the man who will get the job has ten coins in his pocket?</em></h4>
+<ul>
+  <li>Smith believes that the man who will get the job has ten coins in his pocket.</li>
+  <li>Since he will get the job, and he has ten coins in his pocket, Smith's belief is true.</li>
+  <li>Smith had good evidence both that Jones would get the job and that he had ten coins in his pocket.</li>
+</ul>
 </div>
 
 </div>
 
-<div id="no-false-lemmas" class="ui-body ui-body-a">
+</div>
 
-<p>The problem exposed by the case of Jones' Ford is that one can have justification for a belief, but still have your belief be true by <strong>accident</strong>.</p>
+<div id="no-false-premises" class="ui-body ui-body-a">
+
+<p>The problem exposed by Gettier's cases is that one can have justification for a belief, but still have your belief be true by <strong>accident</strong>.</p>
 <p>Maybe we can shore up the analysis by adding an extra condition to avoid accidental justification.</p>
 
 {% include pop-image.html fname="Gilbert" lname="Harman" %}
+
+<p>Gilbert Harman points out that the believer in each relies on a <em>false premise</em> in an <em>inference</em> when they form their belief. He suggests that this is what defeats their knowledge.</p>
 
 <div data-role="collapsible">
 <h4 class="ui-bar">A revised analysis:</h4>
@@ -75,7 +103,7 @@ we all have a fairly good sense of when one’s belief is justified. Perhaps we 
    <tr>
      <td></td>
      <td></td>
-     <td>S’s justification for p involves no false lemmas</td>
+     <td>S’s justification for p involves no false premises</td>
   </tr>
 </table>
 </div>

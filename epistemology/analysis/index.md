@@ -10,5 +10,6 @@ theme: a
 slides: 
   [Value of Knowledge,
    Analysis, 
-   Justified True Belief]
+   Justified True Belief,
+   Evidence one does not possess]
 ---
