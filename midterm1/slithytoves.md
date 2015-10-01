@@ -47,9 +47,9 @@ Please provide answers to **3** of the prompts below. Each answer is worth a pos
 
 10. Describe Pascal's *Wager* as an argument that you ought to believe in God. Who is *Anti-God*, and why does the possibility of his existence pose a challenge to Pascal's argument?
 
-11. Describe one of Edmund Gettier's thought experiments and explain why this poses a challenge to the JTB analysis of knowledge.
+11. What is the JTB analysis of knowledge? Describe one of Edmund Gettier's thought experiments and explain why this poses a challenge to the JTB analysis.
 
-12. What is a *perspectival difference in experience*? How do these support distinguishing between the *phenomenal* and *neumenal* worlds? What limit does this distinction put on our knowledge of *things-in-themselves*?
+12. What are *perspectival differences* in our experiences of the world around us? How do these support distinguishing between the *phenomenal* and *neumenal* worlds? What limit does this distinction put on our knowledge of *things-in-themselves*?
 
 </div>
 
