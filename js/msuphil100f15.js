@@ -5,7 +5,7 @@ $(function(){
   $("[data-role=panel]").panel({ theme: "a" }).enhanceWithin();
   $("[data-role=footer]").toolbar({ theme: "a" }).enhanceWithin();
   $("[data-role=header]").toolbar({ theme: "a" }).enhanceWithin();
-  /*$(".prog-slider").slider({ theme: "a" }).enhanceWithin();*/
+  $(".prog-slider").slider().enhanceWithin();
 });
 
 // Inject page-specific content in externals
@@ -16,8 +16,8 @@ $( document ).on( "pagecontainerchange", function() {
       point = $( ".ui-page-active" ).index( "[data-role='page']" );
 
   // Set progress bar
-  /*$( "#progress" ).attr("value",point);
-  $( ".prog-slider" ).slider("refresh");*/
+  $( "#progress" ).attr("value",point);
+  $( ".prog-slider" ).slider("refresh");
 
   // Change heading
   $( "[data-role='header'] h1" ).text( current );
