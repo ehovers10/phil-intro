@@ -2,8 +2,10 @@
 layout: exams
 title: Midterm Exam 1
 date: 2015-10-06
-protect: true
+protect: false
 ---
+
+{:ans: style="font-style:italic;"}
 
 <div class="wrap" markdown="1">
 
@@ -22,21 +24,39 @@ Please provide answers to **5** of the prompts below. Each answer is worth a pos
 
 1. Supply the missing concepts that best convey the ideas presented in the stories below. Label each answer in your blue book with the corresponding letter (a-d).
 
-    > Oedipus thinks the woman in the corner is very pretty, and he would like to ask her out on a date. Little does he know, the woman is actually his long lost mother, and he doesn’t have any interest in going out with his mother. Oedipus has a(n) <span style="border-bottom: 1px solid #000; padding: 0 50px;">a</span> reason to ask the woman out, but he has a(n) <span style="border-bottom: 1px solid #000; padding: 0 50px;">b</span> reason to not ask her out.
+    > Oedipus thinks the woman in the corner is very pretty, and he would like to ask her out on a date. Little does he know, the woman is actually his long lost mother, and he doesn’t have any interest in going out with his mother. Oedipus has a(n) <span style="border-bottom: 1px solid #000; padding: 0 50px;font-style:italic;">subjective</span> reason to ask the woman out, but he has a(n) <span style="border-bottom: 1px solid #000; padding: 0 50px;font-style:italic;">objective</span> reason to not ask her out.
 
-    > Trish stayed up until 5 am playing Civilization V on her computer. She completely slept through her alarm and missed her morning classes. Trish has a(n) <span style="border-bottom: 1px solid #000; padding: 0 50px;">c</span> reason for missing class, but she lacks a(n) <span style="border-bottom: 1px solid #000; padding: 0 50px;">d</span> reason.
+    > Trish stayed up until 5 am playing Civilization V on her computer. She completely slept through her alarm and missed her morning classes. Trish has a(n) <span style="border-bottom: 1px solid #000; padding: 0 50px;font-style:italic;">explanatory</span> reason for missing class, but she lacks a(n) <span style="border-bottom: 1px solid #000; padding: 0 50px;font-style:italic;">justificatory</span> reason.
 
 2. What does it mean for a deductive argument to be *valid*, and when is a valid argument also *sound*?
 
+> A deductive argument is valid when the conclusion must be true, whenever the premises are. It is sound if, in addition, the premises are all actually true.
+{: ans }
+
 3. What makes a choice *forced*, according to William James?
+
+> For James, a choice is forced when you have no option to abstain from making the choice. 
+{: ans }
 
 4. What is the *receptivity* principle of human knowledge?
 
+> Human knowledge is receptive in that we know of things only in so far as they affect us. 
+{: ans }
+
 5. What does it mean to say, as Descartes does, that the human mind is *transparent*?
+
+> Descartes means that even if we can be mistaken about whether our thoughts accurately represent the world, we can never be mistaken regarding what it is we are thinking about. The content of our thoughts is always available to us.
+{: ans }
 
 6. What is a *philosophical analysis* and how do *necessary* and *sufficient* conditions play into one?
 
+> A philosophical analysis is a way of understanding a complex concept in terms of the simpler concepts that make it up. Each simpler concept referenced in the analysis must be necessary for the complex concept to hold, and together the set of simple concepts should be sufficient for the complex concept to hold.
+{: ans }
+
 7. What is the *Meno problem*?
+
+> The Meno Problem is to explain the value of knowledge over true belief, given that both are sufficient for acting successfully in the world.
+{: ans }
 
 <div style="page-break-before: always;"></div>
 

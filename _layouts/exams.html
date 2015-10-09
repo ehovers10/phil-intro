@@ -1,0 +1,15 @@
+<!DOCTYPE html> 
+<html>
+
+{% include top.html %}
+
+<body>
+
+{{ content }}
+
+{% if page.protect %}
+  {% include protect.html %}
+{% endif %}
+
+</body>
+</html>
