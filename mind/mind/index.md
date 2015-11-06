@@ -5,6 +5,13 @@ date: 2015-10-16
 protect: false
 ---
 
+<div class="wrap" markdown="1">
+
+<div style="float:right;"><p><strong>{{ page.date | date: "%B %d, %Y" }}</strong></p></div>
+<div style="float:left;"><p><strong>{{ site.title }}</strong></p></div>
+<div style="clear:both;"></div>
+
+
 # Mind and its relation to nature
 
 In Meditation II, after realizing that he can know with certainty that he exists, Descartes next asked himself what exactly is the nature of this thing I. His initial answer was that there are two distinct things that make up his nature: a mind and a body. Somehow, these two things are united in the person that is Descartes (or any of us, for that matter).
@@ -222,3 +229,5 @@ There may be some other way of understanding the notion of creativity that disti
 **Rules for human behavior:** One might think that we can’t specify the rules that guide human behavior. But machine behavior is perfectly characterized by its program. Thus, human action comes about in a different way from machine action.
 
 It may be true that we can’t specify the rules that govern our action. We maight not even be personally aware of why we performed a specific action. But it doesn’t follow from this that there are no laws governing human action. We don’t think that human action is random, so there must be something guiding the way we act, even if we can’t spell it out exactly.
+
+</div>
