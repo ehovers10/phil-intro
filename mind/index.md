@@ -5,7 +5,7 @@ date: 2015-10-16
 protect: false
 ---
 
-<div class="wrap" markdown="1">
+<div style="width:800px;margin:auto;" markdown="1">
 
 <div style="float:right;"><p><strong>{{ page.date | date: "%B %d, %Y" }}</strong></p></div>
 <div style="float:left;"><p><strong>{{ site.title }}</strong></p></div>
