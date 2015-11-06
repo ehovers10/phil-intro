@@ -1,3 +1,10 @@
+---
+layout: exams
+title: Mind and Body
+date: 2015-10-16
+protect: false
+---
+
 # Mind and its relation to nature
 
 In Meditation II, after realizing that he can know with certainty that he exists, Descartes next asked himself what exactly is the nature of this thing I. His initial answer was that there are two distinct things that make up his nature: a mind and a body. Somehow, these two things are united in the person that is Descartes (or any of us, for that matter).
