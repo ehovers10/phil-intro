@@ -1,8 +1,11 @@
 ---
 layout: exams
 title: Mind and Body
+stitle: mind
 date: 2015-10-16
 protect: false
+kind: presentation
+module: metaphysics
 ---
 
 <div style="width:800px;margin:auto;" markdown="1">

@@ -2,6 +2,8 @@
 layout: landing
 title: Midterm exam 1 review guide
 date: 2015-09-29
+kind: exam
+module: assessment
 ---
 
 <div class="wrap" markdown="1">

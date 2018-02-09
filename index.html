@@ -13,7 +13,7 @@ title: Introduction to Philosophy
     {% for thing in enav %}
     <li data-role="list-divider">{{ thing.name | capitalize }}</li>
     {% for bit in thing.items %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}/{{ bit.module }}/{{ bit.stitle }}" rel="external">{{ bit.date | date: "%m/%d"}}: {{ bit.stitle | capitalize }}</a></li>
+    <li><a href="{{ bit.stitle | prepend: '/' | prepend: bit.module | prepend: '/' | prepend: site.baseurl }}">{{ bit.date | date: "%m/%d"}}: {{ bit.title | capitalize }}</a></li>
     {% endfor %}
     {% endfor %}
   </ul>
@@ -43,8 +43,8 @@ title: Introduction to Philosophy
          <li>to  connect  philosophical  theories  to  real-world  issues.  By  actively  engaging  in  the  course,  students  will  come  to understand how the ideas we discuss in class matter for their interaction with the world they inhabit.
          </li>
        </ul>
-    <p>The course content is divided into 5 modules, each of which reflects an important sub-discipline of philosophy. The modules are:
-Philosophical method, Epistemology, Mind and metaphysics, Ethics, and Political philosophy.</p>
+    <p>The course content is divided into 4 modules, each of which reflects an important sub-discipline of philosophy. The modules are:
+Philosophical Method, Epistemology, Mind and Metaphysics, and Ethics and Political Philosophy.</p>
 
 </div>
 
@@ -54,7 +54,7 @@ Philosophical method, Epistemology, Mind and metaphysics, Ethics, and Political 
     {% for thing in enav %}
     <li data-role="list-divider">{{ thing.name | capitalize }}</li>
     {% for bit in thing.items %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}/{{ bit.module }}/{{ bit.stitle }}" rel="external">{{ bit.date | date: "%m/%d"}}: {{ bit.title }}</a></li>
+    <li><a href="{{ bit.stitle | prepend: '/' | prepend: bit.module | prepend: '/' | prepend: site.baseurl }}">{{ bit.date | date: "%m/%d"}}: {{ bit.title | capitalize }}</a></li>
     {% endfor %}
     {% endfor %}
     </ul>
@@ -62,36 +62,33 @@ Philosophical method, Epistemology, Mind and metaphysics, Ethics, and Political 
 
 <div id="additional-resources" class="ui-body ui-body-a">
 
+<h3 class="ui-bar" style="margin: 10px 0 0;">Course Details</h3>
     <div class="ui-grid-c">
-      <div class="ui-block-a"><h3 class="ui-bar" style="margin-top: 10px;">Syllabus</h3></div>
-      <div class="ui-block-b"><a href="/msuphil100f15/intro/#intro-syll-info" rel="external" class="ui-btn ui-btn-e ui-corner-all">HTML</a></div>
-      <div class="ui-block-c"><a href="/msuphil100f15/syllabus/syllabus07.pdf" rel="external" class="ui-btn ui-corner-all">PDF (sect. 07)</a></div>
-      <div class="ui-block-c"><a href="/msuphil100f15/syllabus/syllabus08.pdf" rel="external" class="ui-btn ui-corner-all">PDF (sect. 08)</a></div>
+      <div class="ui-block-a"><a href="{{ '/intro/#intro-syll-info' | prepend: site.baseurl }}" rel="external" class="ui-btn ui-btn-e ui-corner-all">Syllabus</a></div>
+      <div class="ui-block-b"><a href="{{ '/intro/#intro-sched-overview' | prepend: site.baseurl }}" rel="external" class="ui-btn ui-corner-all">Schedule</a></div>
+      <div class="ui-block-c"><a href="{{ '/intro/#intro-assess-overview' | prepend: site.baseurl }}" rel="external" class="ui-btn ui-btn-e ui-corner-all">Assessment</a></div>
     </div>
 
+<h3 class="ui-bar" style="margin: 10px 0 0;">Review Items</h3>
+    <div class="ui-grid-b">      
+      <div class="ui-block-a"><a href="{{ '/nagel/' | prepend: site.baseurl }}" rel="external" class="ui-btn ui-btn-e ui-corner-all">Example Reading Response</a></div>
+      <div class="ui-block-b"><a href="{{ '/midterm1/review.html' | prepend: site.baseurl }}" rel="external" class="ui-btn ui-corner-all">Midterm 1 Review</a></div>
+    </div>
+    <div class="ui-grid-b">     
+      <div class="ui-block-a"><a href="http://www.jimpryor.net/teaching/guidelines/reading.html" rel="external" class="ui-btn ui-corner-all">Guide to reading philosophy</a></div>
+      <div class="ui-block-b"><a href="http://www.jimpryor.net/teaching/guidelines/writing.html" rel="external" class="ui-btn ui-btn-e ui-corner-all">Guide to writing philosophy</a></div>
+    </div>
+
+<h3 class="ui-bar" style="margin: 10px 0 0;">Exams</h3>
+    <div class="ui-grid-b">     
+      <div class="ui-block-a"><a href="{{ '/midterm1/exam.html' | prepend: site.baseurl }}" rel="external" class="ui-btn ui-btn-e ui-corner-all">Midterm 1</a></div>
+      <div class="ui-block-b"><a href="{{ '/midterm2/' | prepend: site.baseurl }}" rel="external" class="ui-btn ui-corner-all">Midterm 2</a></div>    
+    </div>  
+
+<h3 class="ui-bar" style="margin: 10px 0 0;">Additional Readings</h3>
     <div class="ui-grid-b">
-      <div class="ui-block-a"><h3 class="ui-bar" style="margin-top: 10px;">Schedule</h3></div>
-      <div class="ui-block-b"><a href="/msuphil100f15/intro/#intro-sched-overview" rel="external" class="ui-btn ui-btn-e ui-corner-all">HTML</a></div>
-      <div class="ui-block-c"><a href="/msuphil100f15/syllabus/schedule2.pdf" rel="external" class="ui-btn ui-corner-all">PDF</a></div>
-
-      <div class="ui-block-a"><h3 class="ui-bar" style="margin-top: 10px;">Assessment</h3></div>
-      <div class="ui-block-b"><a href="/msuphil100f15/intro/#intro-assess-overview" rel="external" class="ui-btn ui-btn-e ui-corner-all">HTML</a></div>
-      <div class="ui-block-c"><a href="/msuphil100f15/syllabus/assessment.pdf" rel="external" class="ui-btn ui-corner-all">PDF</a></div>
-
-      <div class="ui-block-a"><h3 class="ui-bar" style="margin-top: 10px;">Example reading response</h3></div>
-      <div class="ui-block-b"><a href="/msuphil100f15/nagel/" rel="external" class="ui-btn ui-btn-e ui-corner-all">HTML</a></div>
-      <div class="ui-block-c"><a href="/msuphil100f15/nagel/nagel.pdf" rel="external" class="ui-btn ui-corner-all">PDF</a></div>
-    </div>
-
-    <div class="ui-grid-a">
-      <div class="ui-block-a"><h3 class="ui-bar" style="margin-top: 10px;">Guide to reading philosophy</h3></div>
-      <div class="ui-block-b"><a href="http://www.jimpryor.net/teaching/guidelines/reading.html" rel="external" class="ui-btn ui-btn-e ui-corner-all">HTML</a></div>
-      <div class="ui-block-a"><h3 class="ui-bar" style="margin-top: 10px;">Guide to writing philosophy</h3></div>
-      <div class="ui-block-b"><a href="http://www.jimpryor.net/teaching/guidelines/writing.html" rel="external" class="ui-btn ui-btn-e ui-corner-all">HTML</a></div>
-      <div class="ui-block-a"><h3 class="ui-bar" style="margin-top: 10px;">Clifford, <em>The Ethics of Belief</em></h3></div>
-      <div class="ui-block-b"><a href="/msuphil100f15/clifford-ethics-of-belief.pdf" rel="external" class="ui-btn ui-btn-e ui-corner-all">PDF</a></div>
-      <div class="ui-block-a"><h3 class="ui-bar" style="margin-top: 10px;">Turing, <em>Computing Machinery and Intelligence</em></h3></div>
-      <div class="ui-block-b"><a href="/msuphil100f15/clifford-ethics-of-belief.pdf" rel="external" class="ui-btn ui-btn-e ui-corner-all">PDF</a></div>
+      <div class="ui-block-a"><a href="{{ '/readings/clifford-ethics-of-belief.pdf' | prepend: site.baseurl }}" rel="external" class="ui-btn ui-btn-e ui-corner-all">Clifford, <em>The Ethics of Belief</em></a></div>
+      <div class="ui-block-b"><a href="{{ '/readings/clifford-ethics-of-belief.pdf' | prepend: site.baseurl }}" rel="external" class="ui-btn ui-corner-all">Turing, <em>Computing Machinery and Intelligence</em></a></div>
     </div>
 
 </div>

@@ -3,6 +3,8 @@ layout: exams
 title: Midterm Exam 2
 date: 2015-11-13
 protect: false
+kind: exam
+module: assessment
 ---
 
 {:ans: style="font-style:italic;"}

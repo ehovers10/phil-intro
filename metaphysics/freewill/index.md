@@ -1,8 +1,11 @@
 ---
 layout: exams
 title: Free will
-date: 2015-11-06
+stitle: freewill
+date: 2015-10-30
 protect: false
+kind: presentation
+module: metaphysics
 ---
 
 <div style="width:800px;margin:auto;" markdown="1">
